@@ -1,35 +1,56 @@
-\documentclass{book}
+\documentclass{ctexbook}
 \usepackage{xeCJK}
 \usepackage{amsmath}
-\title{Artificial Intellegence}
+\usepackage{titlesec}
+
+\usepackage{enumitem}
+\renewcommand\labelenumi{(\theenumi)}
+
+\usepackage{scrextend}% not needed with a KOMA-Script class, provides the
+                      % `addmargin' environment
+
+\usepackage{exsheets}
+\DeclareInstance{exsheets-heading}{mylist}{default}{
+  runin = true ,
+  attach = {
+    main[l,vc]number[l,vc](-3em,0pt) ; % 3em = indent of question body
+    main[r,vc]points[l,vc](\linewidth+\marginparsep,0pt)
+  }
+}
+\SetupExSheets{
+  headings = mylist , % use the new headings instance
+  headings-format = \normalfont ,
+  %counter-format = \thechapter.qu ,
+  counter-within = section ,
+  solution/print = true
+}
+\let\oldquestion\question
+\let\oldsolution\solution
+
+\renewenvironment{question}{%
+	\SetupExSheets{counter-format=\thechapter.qu}
+	\oldquestion
+}
+
+\renewenvironment{solution}{%
+	\SetupExSheets{counter-format=}
+	\oldsolution
+}
+
+\usepackage{etoolbox}
+% 3em = indent of question body :
+\AtBeginEnvironment{question}{\addmargin[3em]{0em}}
+\AtEndEnvironment{question}{\endaddmargin}
+\AtBeginEnvironment{solution}{\addmargin[3em]{0em}}
+\AtEndEnvironment{solution}{\endaddmargin}
+
+\title{人工智能及其应用（第4版）\\ 习题解析}
 \date{}
-
-\renewcommand{\contentsname}{目录}
-\renewcommand{\listfigurename}{图目录}
-\renewcommand{\listtablename}{表目录}
-\renewcommand{\partname}{第\thepart 部}
-\renewcommand{\chaptername}{第\thechapter 章}
-\renewcommand{\figurename}{图}
-\renewcommand{\tablename}{表}
-\renewcommand{\bibname}{参考文献}
-\renewcommand{\appendixname}{附录}
-\renewcommand{\indexname}{索引}
-
-\newtheorem{problem}{}[chapter]
-\newtheorem{answer}{解析}
 
 \begin{document}
 \maketitle
 
-\chapter{绪论}
-
-\begin{problem}
-这是一个问题
-\begin{answer}
-这是一个答案
-\end{answer}
-\end{problem}
-
-\chapter{人工智能}
+\input{Chapter_1.tex}
+\input{Chapter_2.tex}
 
 \end{document}
