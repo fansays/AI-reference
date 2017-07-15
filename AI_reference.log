@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.7.13)  15 JUL 2017 01:23
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.7.13)  15 JUL 2017 13:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1195,13 +1195,30 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count151
 \@thisrulewidth=\dimen198
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tabulary/tabulary.sty
+Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen199
+\extrarowheight=\dimen256
+\NC@list=\toks25
+\extratabsurround=\skip64
+\backup@length=\skip65
+)
+\TY@count=\count152
+\TY@linewidth=\dimen257
+\tymin=\dimen258
+\tymax=\dimen259
+\TY@tablewidth=\dimen260
+)
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip64
-\enit@outerparindent=\dimen199
-\enit@toks=\toks25
+\labelindent=\skip66
+\enit@outerparindent=\dimen261
+\enit@toks=\toks26
 \enit@inbox=\box56
-\enitdp@description=\count152
+\enitdp@description=\count153
 )
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrextend.sty
 Package: scrextend 2015/10/03 v3.19a KOMA-Script package (extend other classes 
@@ -1226,23 +1243,23 @@ LaTeX Info: Redefining \textsubscript on input line 1277.
 ) (/usr/share/texlive/texmf-dist/tex/latex/exsheets/exsheets.sty
 Package: exsheets 2016/02/01 v0.21b Yet another package for the creation of exe
 rcise sheets and exams.
-\l__exsheets_tmpa_int=\count153
-\l__exsheets_tmpb_int=\count154
-\l__exsheets_tmpc_int=\count155
-\l__exsheets_tmpd_int=\count156
-\l__exsheets_tmpe_int=\count157
-\l__exsheets_tmpa_dim=\dimen256
-\l__exsheets_tmpb_dim=\dimen257
+\l__exsheets_tmpa_int=\count154
+\l__exsheets_tmpb_int=\count155
+\l__exsheets_tmpc_int=\count156
+\l__exsheets_tmpd_int=\count157
+\l__exsheets_tmpe_int=\count158
+\l__exsheets_tmpa_dim=\dimen262
+\l__exsheets_tmpb_dim=\dimen263
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3sort/l3sort.sty
 Package: l3sort 2016/01/19 v6377 L3 Experimental sorting functions
-\l__sort_length_int=\count158
-\l__sort_block_int=\count159
-\l__sort_begin_int=\count160
-\l__sort_end_int=\count161
-\l__sort_A_int=\count162
-\l__sort_B_int=\count163
-\l__sort_C_int=\count164
+\l__sort_length_int=\count159
+\l__sort_block_int=\count160
+\l__sort_begin_int=\count161
+\l__sort_end_int=\count162
+\l__sort_A_int=\count163
+\l__sort_B_int=\count164
+\l__sort_C_int=\count165
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
@@ -1262,15 +1279,15 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count165
+\etb@tempcnta=\count166
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks26
-\pgfutil@tempdima=\dimen258
-\pgfutil@tempdimb=\dimen259
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen264
+\pgfutil@tempdimb=\dimen265
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -1285,30 +1302,30 @@ Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks27
-\pgfkeys@temptoks=\toks28
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
-\pgfkeys@tmptoks=\toks29
+\pgfkeys@tmptoks=\toks30
 ))
-\pgf@x=\dimen260
-\pgf@y=\dimen261
-\pgf@xa=\dimen262
-\pgf@ya=\dimen263
-\pgf@xb=\dimen264
-\pgf@yb=\dimen265
-\pgf@xc=\dimen266
-\pgf@yc=\dimen267
+\pgf@x=\dimen266
+\pgf@y=\dimen267
+\pgf@xa=\dimen268
+\pgf@ya=\dimen269
+\pgf@xb=\dimen270
+\pgf@yb=\dimen271
+\pgf@xc=\dimen272
+\pgf@yc=\dimen273
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count166
-\c@pgf@countb=\count167
-\c@pgf@countc=\count168
-\c@pgf@countd=\count169
-\t@pgf@toka=\toks30
-\t@pgf@tokb=\toks31
-\t@pgf@tokc=\toks32
+\c@pgf@counta=\count167
+\c@pgf@countb=\count168
+\c@pgf@countc=\count169
+\c@pgf@countd=\count170
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -1324,13 +1341,13 @@ File: pgfsys-dvipdfmx.def 2014/07/09  (rcs-revision 1.14)
 f
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )
-\pgfsys@objnum=\count170
+\pgfsys@objnum=\count171
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count171
-\pgfsyssoftpath@bigbuffer@items=\count172
+\pgfsyssoftpath@smallbuffer@items=\count172
+\pgfsyssoftpath@bigbuffer@items=\count173
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -1343,12 +1360,12 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen268
-\pgfmath@count=\count173
+\pgfmath@dimen=\dimen274
+\pgfmath@count=\count174
 \pgfmath@box=\box58
-\pgfmath@toks=\toks33
-\pgfmath@stack@operand=\toks34
-\pgfmath@stack@operation=\toks35
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -1368,37 +1385,37 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count174
+\c@pgfmathroundto@lastzeros=\count175
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen269
-\pgf@picmaxx=\dimen270
-\pgf@picminy=\dimen271
-\pgf@picmaxy=\dimen272
-\pgf@pathminx=\dimen273
-\pgf@pathmaxx=\dimen274
-\pgf@pathminy=\dimen275
-\pgf@pathmaxy=\dimen276
-\pgf@xx=\dimen277
-\pgf@xy=\dimen278
-\pgf@yx=\dimen279
-\pgf@yy=\dimen280
-\pgf@zx=\dimen281
-\pgf@zy=\dimen282
+\pgf@picminx=\dimen275
+\pgf@picmaxx=\dimen276
+\pgf@picminy=\dimen277
+\pgf@picmaxy=\dimen278
+\pgf@pathminx=\dimen279
+\pgf@pathmaxx=\dimen280
+\pgf@pathminy=\dimen281
+\pgf@pathmaxy=\dimen282
+\pgf@xx=\dimen283
+\pgf@xy=\dimen284
+\pgf@yx=\dimen285
+\pgf@yy=\dimen286
+\pgf@zx=\dimen287
+\pgf@zy=\dimen288
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen283
-\pgf@path@lasty=\dimen284
+\pgf@path@lastx=\dimen289
+\pgf@path@lasty=\dimen290
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen285
-\pgf@shorten@start@additional=\dimen286
+\pgf@shorten@end@additional=\dimen291
+\pgf@shorten@start@additional=\dimen292
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
@@ -1406,19 +1423,19 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box59
 \pgf@hbox=\box60
 \pgf@layerbox@main=\box61
-\pgf@picture@serial@count=\count175
+\pgf@picture@serial@count=\count176
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen287
+\pgflinewidth=\dimen293
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen288
-\pgf@pt@y=\dimen289
-\pgf@pt@temp=\dimen290
+\pgf@pt@x=\dimen294
+\pgf@pt@y=\dimen295
+\pgf@pt@temp=\dimen296
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -1434,12 +1451,12 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen291
+\pgfarrowsep=\dimen297
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen292
-\pgf@sys@shading@range@num=\count176
+\pgf@max=\dimen298
+\pgf@sys@shading@range@num=\count177
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -1472,8 +1489,8 @@ Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-\pgfopts@list@add@a@toks=\toks36
-\pgfopts@list@add@b@toks=\toks37
+\pgfopts@list@add@a@toks=\toks37
+\pgfopts@list@add@b@toks=\toks38
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -1493,16 +1510,16 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 )
-\c@cnltx@tmpa=\count177
-\c@cnltx@tmpb=\count178
-\c@cnltx@tmpc=\count179
-\cnltx@tmpa@length=\skip65
-\cnltx@tmpb@length=\skip66
-\cnltx@tmpc@length=\skip67
+\c@cnltx@tmpa=\count178
+\c@cnltx@tmpb=\count179
+\c@cnltx@tmpc=\count180
+\cnltx@tmpa@length=\skip67
+\cnltx@tmpb@length=\skip68
+\cnltx@tmpc@length=\skip69
 ))
-\c@question=\count180
-\l__exsheets_questions_skip_below_dim=\dimen293
-\l__exsheets_solutions_skip_below_dim=\dimen294
+\c@question=\count181
+\l__exsheets_questions_skip_below_dim=\dimen299
+\l__exsheets_solutions_skip_below_dim=\dimen300
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1548,7 +1565,7 @@ Package pdftexcmds Info: \pdfdraftmode not found.
 . 
 . Defining command \totalpoints with sig. 's' on line 594.
 .................................................
-\l__exsheets_variations_int=\count181
+\l__exsheets_variations_int=\count182
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1604,8 +1621,8 @@ Package pdftexcmds Info: \pdfdraftmode not found.
 . 
 . Defining command \PrintQuestionClassF with sig. 'mm' on line 978.
 .................................................
-\g__exsheets_questions_id_int=\count182
-\g__exsheets_questions_used_int=\count183
+\g__exsheets_questions_id_int=\count183
+\g__exsheets_questions_used_int=\count184
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1614,8 +1631,8 @@ Package pdftexcmds Info: \pdfdraftmode not found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/exsheets/exsheets_headings.def
 File: exsheets_headings.def  2016/02/01 v0.21b ExSheets headings object
-\l__exsheets_heading_above_dim=\dimen295
-\l__exsheets_heading_below_dim=\dimen296
+\l__exsheets_heading_above_dim=\dimen301
+\l__exsheets_heading_below_dim=\dimen302
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1673,16 +1690,16 @@ File: exsheets_headings.cfg  2016/02/01 v0.21b ExSheets headings instances
 . 
 . Defining command \GetQuestionProperty with sig. 'mm' on line 1700.
 .................................................
-\g__exsheets_tmpa_int=\count184
-\l__exsheets_include_random_int=\count185
+\g__exsheets_tmpa_int=\count185
+\l__exsheets_include_random_int=\count186
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \includequestions with sig. 'om' on line 1841.
 .................................................
-\l__exsheets_questions_set_int=\count186
-\g__exsheets_select_random_int=\count187
-\g__exsheets_selection_number_int=\count188
+\l__exsheets_questions_set_int=\count187
+\g__exsheets_select_random_int=\count188
+\g__exsheets_selection_number_int=\count189
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1703,11 +1720,11 @@ File: exsheets_headings.cfg  2016/02/01 v0.21b ExSheets headings instances
 . 
 . Defining command \printsolutions with sig. 'O{all}' on line 2328.
 .................................................
-\l__exsheets_counter_ch_int=\count189
-\l__exsheets_current_ch_int=\count190
-\l__exsheets_counter_sec_int=\count191
-\l__exsheets_current_sec_int=\count192
-\l_exsheets_counter_qu_int=\count193
+\l__exsheets_counter_ch_int=\count190
+\l__exsheets_current_ch_int=\count191
+\l__exsheets_counter_sec_int=\count192
+\l__exsheets_current_sec_int=\count193
+\l_exsheets_counter_qu_int=\count194
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1724,58 +1741,58 @@ Package: tasks 2014/07/29 v0.10a Horizontal columned lists.
 
 (/usr/share/texlive/texmf-dist/tex/latex/eepic/epic.sty
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
-\@@multicnt=\count194
-\d@lta=\count195
-\@delta=\dimen297
-\@@delta=\dimen298
-\@gridcnt=\count196
-\@joinkind=\count197
-\@dotgap=\dimen299
-\@ddotgap=\dimen300
-\@x@diff=\count198
-\@y@diff=\count199
-\x@diff=\dimen301
-\y@diff=\dimen302
+\@@multicnt=\count195
+\d@lta=\count196
+\@delta=\dimen303
+\@@delta=\dimen304
+\@gridcnt=\count197
+\@joinkind=\count198
+\@dotgap=\dimen305
+\@ddotgap=\dimen306
+\@x@diff=\count199
+\@y@diff=\count266
+\x@diff=\dimen307
+\y@diff=\dimen308
 \@dotbox=\box70
-\num@segments=\count266
-\num@segmentsi=\count267
+\num@segments=\count267
+\num@segmentsi=\count268
 \@datafile=\read3
 )
-\l__tasks_depth_int=\count268
-\g__tasks_int=\count269
-\g__tasks_total_items_int=\count270
-\l__tasks_columns_int=\count271
-\l__tasks_rows_int=\count272
-\g__tasks_current_col_num_int=\count273
-\g__tasks_current_row_num_int=\count274
-\l__tasks_item_columns_int=\count275
-\l__tasks_item_indent_dim=\dimen303
-\l__tasks_item_default_indent_dim=\dimen304
-\l__tasks_item_width_dim=\dimen305
-\l__tasks_label_width_dim=\dimen306
-\l__tasks_label_default_width_dim=\dimen307
-\l__tasks_label_offset_dim=\dimen308
-\l__tasks_label_default_offset_dim=\dimen309
-\l__tasks_column_sep_dim=\dimen310
-\l__tasks_after_item_skip=\skip68
-\l__tasks_custom_after_item_skip=\skip69
-\l__tasks_before_list_skip=\skip70
-\l__tasks_after_list_skip=\skip71
+\l__tasks_depth_int=\count269
+\g__tasks_int=\count270
+\g__tasks_total_items_int=\count271
+\l__tasks_columns_int=\count272
+\l__tasks_rows_int=\count273
+\g__tasks_current_col_num_int=\count274
+\g__tasks_current_row_num_int=\count275
+\l__tasks_item_columns_int=\count276
+\l__tasks_item_indent_dim=\dimen309
+\l__tasks_item_default_indent_dim=\dimen310
+\l__tasks_item_width_dim=\dimen311
+\l__tasks_label_width_dim=\dimen312
+\l__tasks_label_default_width_dim=\dimen313
+\l__tasks_label_offset_dim=\dimen314
+\l__tasks_label_default_offset_dim=\dimen315
+\l__tasks_column_sep_dim=\dimen316
+\l__tasks_after_item_skip=\skip70
+\l__tasks_custom_after_item_skip=\skip71
+\l__tasks_before_list_skip=\skip72
+\l__tasks_after_list_skip=\skip73
 \l__tasks_item_coffin=\box71
 \l__tasks_label_coffin=\box72
-\c@task=\count276
-\l__tasks_tmpa_int=\count277
-\l__tasks_tmpb_int=\count278
+\c@task=\count277
+\l__tasks_tmpa_int=\count278
+\l__tasks_tmpb_int=\count279
 \l__tasks_tmpa_coffin=\box73
 .................................................
 . xtemplate info: "declare-object-type"
 . 
 . Declaring object type 'tasks' taking 3 argument(s) on line 377.
 .................................................
-\l__tasks_choice_width_dim=\dimen311
-\l__tasks_choice_linewidth_dim=\dimen312
-\l__tasks_choice_checkwidth_dim=\dimen313
-\l__tasks_choice_raise_dim=\dimen314
+\l__tasks_choice_width_dim=\dimen317
+\l__tasks_choice_linewidth_dim=\dimen318
+\l__tasks_choice_checkwidth_dim=\dimen319
+\l__tasks_choice_raise_dim=\dimen320
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1805,7 +1822,7 @@ File: tasks.cfg 2014/07/29 v0.10a tasks instances
 . Defining command \settasks with sig. 'm' on line 710.
 .................................................
 )
-\l__exsheets_blank_dim=\dimen315
+\l__exsheets_blank_dim=\dimen321
 \l__exsheets_blank_box=\box74
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -1981,29 +1998,47 @@ Underfull \vbox (badness 2932) has occurred while \output is active []
  [11]
 Missing character: There is no ， in font [lmroman10-regular]:mapping=tex-text!
 
-Underfull \vbox (badness 1092) has occurred while \output is active []
-
- [12]
-
-LaTeX Warning: Float too large for page by 119.41026pt on input line 184.
+[12]
+Overfull \hbox (26.77896pt too wide) in paragraph at lines 122--122
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 全 称 量 词 同 与 或 连 词：| $[]$ 
+ []
 
 [13]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (1.0pt too wide) in paragraph at lines 178--178
+ [][] 
+ []
 
- [14]
-[15]) [16] (./AI_reference.aux)
+
+Underfull \hbox (badness 1454) in paragraph at lines 229--229
+\EU1/FandolSong-Regular(0)/m/n/10.53937 而 无 法 提 供 推 理 目 标，|
+ []
+
+
+LaTeX Warning: Float too large for page by 2.10738pt on input line 229.
+
+[14] [15] [16]) (./Chapter_4.tex [17] [18
+
+
+]
+第四章
+) (./Chapter_5.tex [19] [20
+
+
+]
+第五章
+[21] [22]) [23] (./AI_reference.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 31795 strings out of 495211
- 666006 string characters out of 6179843
- 663388 words of memory out of 5000000
- 34672 multiletter control sequences out of 15000+600000
+ 31944 strings out of 495211
+ 669184 string characters out of 6179843
+ 667624 words of memory out of 5000000
+ 34808 multiletter control sequences out of 15000+600000
  8950 words of font info for 58 fonts, out of 8000000 for 9000
  286 hyphenation exceptions out of 8191
- 65i,10n,77p,10436b,665s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,13n,77p,10436b,664s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on AI_reference.pdf (16 pages).
+Output written on AI_reference.pdf (23 pages).

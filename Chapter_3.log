@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.7.13)  15 JUL 2017 01:24
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.7.13)  15 JUL 2017 12:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2874,18 +2874,13 @@ Missing character: There is no 等 in font nullfont!
 Missing character: There is no 价 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (34.00893pt too wide) in paragraph at lines 91--95
-[] \OML/cmm/m/it/10 P \OMS/cmsy/m/n/10 !
+Overfull \hbox (28.4534pt too wide) in paragraph at lines 91--95
+[] \OMS/cmsy/m/n/10 !
  []
 
 
-Overfull \hbox (22.34996pt too wide) in paragraph at lines 91--95
-\OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 ) =
- []
-
-
-Overfull \hbox (11.6667pt too wide) in paragraph at lines 91--95
-\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^X
+Overfull \hbox (26.23886pt too wide) in paragraph at lines 91--95
+\OML/cmm/m/it/10 Q \OT1/cmr/m/n/10 =\OMS/cmsy/m/n/10 ^^X
  []
 
 
@@ -2894,13 +2889,13 @@ Overfull \hbox (14.47572pt too wide) in paragraph at lines 91--95
  []
 
 
-Overfull \hbox (11.79445pt too wide) in paragraph at lines 91--95
-\OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 )[] 
+Overfull \hbox (7.90555pt too wide) in paragraph at lines 91--95
+\OML/cmm/m/it/10 Q[] 
  []
 
 
-Overfull \hbox (11.6667pt too wide) in paragraph at lines 91--95
-\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^X
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 91--95
+\OMS/cmsy/m/n/10 ^^X
  []
 
 
@@ -2909,18 +2904,400 @@ Overfull \hbox (20.58676pt too wide) in paragraph at lines 91--95
  []
 
 
-Overfull \hbox (22.34996pt too wide) in paragraph at lines 91--95
-\OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 ) =
+Overfull \hbox (18.46106pt too wide) in paragraph at lines 91--95
+\OML/cmm/m/it/10 Q \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (18.36462pt too wide) in paragraph at lines 91--95
+Overfull \hbox (14.47572pt too wide) in paragraph at lines 91--95
+\OML/cmm/m/it/10 P \OMS/cmsy/m/n/10 _
+ []
+
+
+Overfull \hbox (7.90555pt too wide) in paragraph at lines 91--95
+\OML/cmm/m/it/10 Q$ 
+ []
+
+Missing character: There is no 狄 in font nullfont!
+Missing character: There is no • in font nullfont!
+Missing character: There is no 摩 in font nullfont!
+Missing character: There is no 根 in font nullfont!
+Missing character: There is no 定 in font nullfont!
+Missing character: There is no 律 in font nullfont!
+Missing character: There is no ： in font nullfont!
+
+Overfull \hbox (35.67569pt too wide) in paragraph at lines 95--99
+[] \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 P \OMS/cmsy/m/n/10 _
+ []
+
+
+Overfull \hbox (30.12776pt too wide) in paragraph at lines 95--99
+\OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 ) =\OMS/cmsy/m/n/10 ^^X
+ []
+
+
+Overfull \hbox (25.03123pt too wide) in paragraph at lines 95--99
+\OML/cmm/m/it/10 P\OMS/cmsy/m/n/10 ^ ^^X
+ []
+
+
+Overfull \hbox (7.90555pt too wide) in paragraph at lines 95--99
+\OML/cmm/m/it/10 Q[] 
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 95--99
+\OMS/cmsy/m/n/10 ^^X
+ []
+
+
+Overfull \hbox (18.36462pt too wide) in paragraph at lines 95--99
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 P \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (30.12776pt too wide) in paragraph at lines 95--99
+\OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 ) =\OMS/cmsy/m/n/10 ^^X
+ []
+
+
+Overfull \hbox (25.03123pt too wide) in paragraph at lines 95--99
+\OML/cmm/m/it/10 P\OMS/cmsy/m/n/10 _ ^^X
+ []
+
+
+Overfull \hbox (7.90555pt too wide) in paragraph at lines 95--99
+\OML/cmm/m/it/10 Q$ 
+ []
+
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 配 in font nullfont!
+Missing character: There is no 律 in font nullfont!
+Missing character: There is no ： in font nullfont!
+
+Overfull \hbox (22.34236pt too wide) in paragraph at lines 99--103
+[] \OMS/cmsy/m/n/10 _
+ []
+
+
+Overfull \hbox (18.46114pt too wide) in paragraph at lines 99--103
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Q \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (22.11456pt too wide) in paragraph at lines 99--103
+\OML/cmm/m/it/10 R\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (18.36462pt too wide) in paragraph at lines 99--103
 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 P \OMS/cmsy/m/n/10 _
  []
 
 
-Overfull \hbox (11.79445pt too wide) in paragraph at lines 91--95
-\OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 )$ 
+Overfull \hbox (18.46114pt too wide) in paragraph at lines 99--103
+\OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (18.36462pt too wide) in paragraph at lines 99--103
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 P \OMS/cmsy/m/n/10 _
+ []
+
+
+Overfull \hbox (11.55905pt too wide) in paragraph at lines 99--103
+\OML/cmm/m/it/10 R\OT1/cmr/m/n/10 )[] 
+ []
+
+
+Overfull \hbox (14.47572pt too wide) in paragraph at lines 99--103
+\OML/cmm/m/it/10 P \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (18.46114pt too wide) in paragraph at lines 99--103
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Q \OMS/cmsy/m/n/10 _
+ []
+
+
+Overfull \hbox (22.11456pt too wide) in paragraph at lines 99--103
+\OML/cmm/m/it/10 R\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (18.36462pt too wide) in paragraph at lines 99--103
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 P \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (18.46114pt too wide) in paragraph at lines 99--103
+\OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 _
+ []
+
+
+Overfull \hbox (18.36462pt too wide) in paragraph at lines 99--103
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 P \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (11.55905pt too wide) in paragraph at lines 99--103
+\OML/cmm/m/it/10 R\OT1/cmr/m/n/10 )$ 
+ []
+
+Missing character: There is no 交 in font nullfont!
+Missing character: There is no 换 in font nullfont!
+Missing character: There is no 律 in font nullfont!
+Missing character: There is no ： in font nullfont!
+
+Overfull \hbox (22.34236pt too wide) in paragraph at lines 103--107
+[] \OMS/cmsy/m/n/10 _
+ []
+
+
+Overfull \hbox (18.46106pt too wide) in paragraph at lines 103--107
+\OML/cmm/m/it/10 Q \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (14.57224pt too wide) in paragraph at lines 103--107
+\OML/cmm/m/it/10 Q \OMS/cmsy/m/n/10 _
+ []
+
+
+Overfull \hbox (7.80904pt too wide) in paragraph at lines 103--107
+\OML/cmm/m/it/10 P[] 
+ []
+
+
+Overfull \hbox (14.47572pt too wide) in paragraph at lines 103--107
+\OML/cmm/m/it/10 P \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (18.46106pt too wide) in paragraph at lines 103--107
+\OML/cmm/m/it/10 Q \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (14.57224pt too wide) in paragraph at lines 103--107
+\OML/cmm/m/it/10 Q \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (7.80904pt too wide) in paragraph at lines 103--107
+\OML/cmm/m/it/10 P$ 
+ []
+
+Missing character: There is no 结 in font nullfont!
+Missing character: There is no 合 in font nullfont!
+Missing character: There is no 律 in font nullfont!
+Missing character: There is no ： in font nullfont!
+
+Overfull \hbox (22.34236pt too wide) in paragraph at lines 107--111
+[] \OMS/cmsy/m/n/10 _
+ []
+
+
+Overfull \hbox (18.46114pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Q \OMS/cmsy/m/n/10 _
+ []
+
+
+Overfull \hbox (22.11456pt too wide) in paragraph at lines 107--111
+\OML/cmm/m/it/10 R\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (18.36462pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 P \OMS/cmsy/m/n/10 _
+ []
+
+
+Overfull \hbox (18.46114pt too wide) in paragraph at lines 107--111
+\OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 _
+ []
+
+
+Overfull \hbox (7.67015pt too wide) in paragraph at lines 107--111
+\OML/cmm/m/it/10 R[] 
+ []
+
+
+Overfull \hbox (14.47572pt too wide) in paragraph at lines 107--111
+\OML/cmm/m/it/10 P \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (18.46114pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Q \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (22.11456pt too wide) in paragraph at lines 107--111
+\OML/cmm/m/it/10 R\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (18.36462pt too wide) in paragraph at lines 107--111
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 P \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (18.46114pt too wide) in paragraph at lines 107--111
+\OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (7.67015pt too wide) in paragraph at lines 107--111
+\OML/cmm/m/it/10 R$ 
+ []
+
+Missing character: There is no 逆 in font nullfont!
+Missing character: There is no 否 in font nullfont!
+Missing character: There is no 率 in font nullfont!
+Missing character: There is no ： in font nullfont!
+
+Overfull \hbox (24.47566pt too wide) in paragraph at lines 111--112
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 P \OMS/cmsy/m/n/10 !
+ []
+
+
+Overfull \hbox (22.34996pt too wide) in paragraph at lines 111--112
+\OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (11.6667pt too wide) in paragraph at lines 111--112
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^X
+ []
+
+
+Overfull \hbox (28.46107pt too wide) in paragraph at lines 111--112
+\OML/cmm/m/it/10 Q \OMS/cmsy/m/n/10 !^^X
+ []
+
+
+Overfull \hbox (11.69794pt too wide) in paragraph at lines 111--112
+\OML/cmm/m/it/10 P\OT1/cmr/m/n/10 )$ 
+ []
+
+Missing character: There is no 否 in font nullfont!
+Missing character: There is no 定 in font nullfont!
+Missing character: There is no 跨 in font nullfont!
+Missing character: There is no 越 in font nullfont!
+Missing character: There is no 量 in font nullfont!
+Missing character: There is no 词 in font nullfont!
+Missing character: There is no ： in font nullfont!
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 112--113
+\OMS/cmsy/m/n/10 ^^X
+ []
+
+
+Overfull \hbox (50.90627pt too wide) in paragraph at lines 112--113
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 9\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/
+m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (29.60423pt too wide) in paragraph at lines 112--113
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )[\OMS/cms
+y/m/n/10 ^^X
+ []
+
+
+Overfull \hbox (24.0799pt too wide) in paragraph at lines 112--113
+\OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )]$ 
+ []
+
+Missing character: There is no 全 in font nullfont!
+Missing character: There is no 称 in font nullfont!
+Missing character: There is no 量 in font nullfont!
+Missing character: There is no 词 in font nullfont!
+Missing character: There is no 同 in font nullfont!
+Missing character: There is no 与 in font nullfont!
+Missing character: There is no 或 in font nullfont!
+Missing character: There is no 连 in font nullfont!
+Missing character: There is no 词 in font nullfont!
+Missing character: There is no ： in font nullfont!
+
+Overfull \hbox (59.32849pt too wide) in paragraph at lines 113--117
+[] \OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )[\OML/cmm/m/it/10 P\OT1
+/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (34.73192pt too wide) in paragraph at lines 113--117
+\OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )] =
+ []
+
+
+Overfull \hbox (47.01744pt too wide) in paragraph at lines 113--117
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/
+m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 
+^
+ []
+
+
+Overfull \hbox (40.44727pt too wide) in paragraph at lines 113--117
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/
+m/it/10 Q\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )[] 
+ []
+
+
+Overfull \hbox (49.79523pt too wide) in paragraph at lines 113--117
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )[\OML/cmm
+/m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10
+ _
+ []
+
+
+Overfull \hbox (34.73192pt too wide) in paragraph at lines 113--117
+\OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )] =
+ []
+
+
+Overfull \hbox (47.01744pt too wide) in paragraph at lines 113--117
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/
+m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 
+_
+ []
+
+
+Overfull \hbox (40.44727pt too wide) in paragraph at lines 113--117
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/
+m/it/10 Q\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ 
+ []
+
+Missing character: There is no 量 in font nullfont!
+Missing character: There is no 词 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 哑 in font nullfont!
+Missing character: There is no 元 in font nullfont!
+Missing character: There is no ： in font nullfont!
+
+Overfull \hbox (60.43953pt too wide) in paragraph at lines 117--121
+[] \OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 P\OT1/
+cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (39.4434pt too wide) in paragraph at lines 117--121
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )\OML/cmm/
+m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )[] 
+ []
+
+
+Overfull \hbox (50.90627pt too wide) in paragraph at lines 117--121
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 9\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/
+m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (39.4434pt too wide) in paragraph at lines 117--121
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 9\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )\OML/cmm/
+m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )$ 
  []
 
 
@@ -2930,7 +3307,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 \end{solution}
+l.122 \end{solution}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2943,7 +3320,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 \begin{question}
+l.124 \begin{question}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2974,7 +3351,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.118 \end{question}
+l.126 \end{question}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2987,7 +3364,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.119 \begin{solution}
+l.127 \begin{solution}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3000,14 +3377,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \end{solution}
+l.128 \end{solution}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 117--121
+Overfull \hbox (20.0pt too wide) in paragraph at lines 125--129
 []
  []
 
@@ -3018,7 +3395,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.122 \begin{question}
+l.130 \begin{question}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3054,7 +3431,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.124 \end{question}
+l.132 \end{question}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3067,7 +3444,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 \begin{solution}
+l.133 \begin{solution}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3080,14 +3457,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.126 \end{solution}
+l.134 \end{solution}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 123--127
+Overfull \hbox (20.0pt too wide) in paragraph at lines 131--135
 []
  []
 
@@ -3098,7 +3475,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128 \begin{question}
+l.136 \begin{question}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3276,7 +3653,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.130 \end{question}
+l.138 \end{question}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3289,7 +3666,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.131 \begin{solution}
+l.139 \begin{solution}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3302,14 +3679,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.132 \end{solution}
+l.140 \end{solution}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (87.70079pt too wide) in paragraph at lines 129--133
+Overfull \hbox (87.70079pt too wide) in paragraph at lines 137--141
 []$\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 N[]; N[]\OT1/cmr/m/n/10 )$$\OML/cmm/m/it/1
 0 N[]$$N[]$
  []
@@ -3321,7 +3698,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.134 \begin{question}
+l.142 \begin{question}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3374,7 +3751,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.136 \end{question}
+l.144 \end{question}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3387,7 +3764,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.137 \begin{solution}
+l.145 \begin{solution}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3400,14 +3777,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.138 \end{solution}
+l.146 \end{solution}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 135--139
+Overfull \hbox (20.0pt too wide) in paragraph at lines 143--147
 []
  []
 
@@ -3418,7 +3795,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.140 \begin{question}
+l.148 \begin{question}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3502,14 +3879,6 @@ Missing character: There is no 驶 in font nullfont!
 Missing character: There is no 方 in font nullfont!
 Missing character: There is no 位 in font nullfont!
 Missing character: There is no 的 in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no ) in font nullfont!
 Missing character: There is no 和 in font nullfont!
 Missing character: There is no 表 in font nullfont!
 Missing character: There is no 示 in font nullfont!
@@ -3518,14 +3887,6 @@ Missing character: There is no 下 in font nullfont!
 Missing character: There is no 包 in font nullfont!
 Missing character: There is no 裹 in font nullfont!
 Missing character: There is no 的 in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no ) in font nullfont!
 Missing character: There is no ； in font nullfont!
 Missing character: There is no 对 in font nullfont!
 Missing character: There is no 于 in font nullfont!
@@ -3605,7 +3966,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.142 \end{question}
+l.150 \end{question}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3618,11 +3979,483 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.143 \begin{solution}
+l.151 \begin{solution}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+
+Missing character: There is no 初 in font nullfont!
+Missing character: There is no 始 in font nullfont!
+Missing character: There is no 状 in font nullfont!
+Missing character: There is no 态 in font nullfont!
+Missing character: There is no 可 in font nullfont!
+Missing character: There is no 描 in font nullfont!
+Missing character: There is no 述 in font nullfont!
+Missing character: There is no 为 in font nullfont!
+Missing character: There is no ： in font nullfont!
+
+! LaTeX Error: Environment multline undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 ^^I\begin{multline}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 ^^I\mathrm
+                {AT}(\#1, \sim \mathrm{LIN}) \wedge \mathrm{AT}(\#2, \sim \m...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no A in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no # in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.154 ^^I\mathrm{AT}(\#1, \sim
+                               \mathrm{LIN}) \wedge \mathrm{AT}(\#2, \sim \m...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{multline}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 ^^I\end{multline}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.156 ^^I\end{multline}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no 目 in font nullfont!
+Missing character: There is no 标 in font nullfont!
+Missing character: There is no 状 in font nullfont!
+Missing character: There is no 态 in font nullfont!
+Missing character: There is no 可 in font nullfont!
+Missing character: There is no 描 in font nullfont!
+Missing character: There is no 述 in font nullfont!
+Missing character: There is no 为 in font nullfont!
+Missing character: There is no ： in font nullfont!
+
+! LaTeX Error: Environment multline undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 ^^I\begin{multline}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ^^I\mathrm
+                {AT}(\#1, \mathrm{LIN}) \wedge \mathrm{AT}(\#2, \mathrm{WU})...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no A in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no # in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ^^I\mathrm{AT}(\#1, \mathrm
+                                 {LIN}) \wedge \mathrm{AT}(\#2, \mathrm{WU})...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no ) in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.159 ^^I\mathrm{AT}(\#1, \mathrm{LIN}) \wedge
+                                               \mathrm{AT}(\#2, \mathrm{WU})...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{multline}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 ^^I\end{multline}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.161 ^^I\end{multline}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no 对 in font nullfont!
+Missing character: There is no 每 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no 操 in font nullfont!
+Missing character: There is no 作 in font nullfont!
+Missing character: There is no 符 in font nullfont!
+Missing character: There is no 都 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 一 in font nullfont!
+Missing character: There is no 定 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 先 in font nullfont!
+Missing character: There is no 决 in font nullfont!
+Missing character: There is no 条 in font nullfont!
+Missing character: There is no 件 in font nullfont!
+Missing character: There is no 和 in font nullfont!
+Missing character: There is no 结 in font nullfont!
+Missing character: There is no 果 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 如 in font nullfont!
+Missing character: There is no 表 in font nullfont!
+! Undefined control sequence.
+<write> ...rence `tab:operators' on page \thepage 
+                                                  \space undefined\on@line .^^J
+l.162 ...�件和结果，如表\ref{tab:operators}
+                                                  ：
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `tab:operators' on page  undefined on input line 162.
+
+Missing character: There is no ： in font nullfont!
+
+! LaTeX Error: Environment table undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 ^^I\begin{table}
+                      [htbp]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.166 ^^I^^I\toprule
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 先 in font nullfont!
+Missing character: There is no 决 in font nullfont!
+Missing character: There is no 条 in font nullfont!
+Missing character: There is no 件 in font nullfont!
+Missing character: There is no 结 in font nullfont!
+Missing character: There is no 果 in font nullfont!
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.168 ^^I^^I\midrule
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.170 ^^I^^I\midrule
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bottomrule 
+                            
+l.173 ^^I^^I\bottomrule
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.175 ^^I\caption
+                 {每个操作符的先决条件和结果}\label{tab:operators}
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 每 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no 操 in font nullfont!
+Missing character: There is no 作 in font nullfont!
+Missing character: There is no 符 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 先 in font nullfont!
+Missing character: There is no 决 in font nullfont!
+Missing character: There is no 条 in font nullfont!
+Missing character: There is no 件 in font nullfont!
+Missing character: There is no 和 in font nullfont!
+Missing character: There is no 结 in font nullfont!
+Missing character: There is no 果 in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 ^^I\end{table}
+                     \par
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 149--176
+[]
+ []
+
+
+Overfull \hbox (315.70988pt too wide) in paragraph at lines 149--176
+[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y\OT1/cmr/m/n/10 )$$\OML/cmm/m/it/10 mat
+hrm[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 )$$[]$
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 149--176
+\OMS/cmsy/m/n/10 ^^X
+ []
+
+
+Overfull \hbox (27.91673pt too wide) in paragraph at lines 149--176
+[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (43.33339pt too wide) in paragraph at lines 149--176
+[]\OT1/cmr/m/n/10 (#2\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^X
+ []
+
+
+Overfull \hbox (28.3334pt too wide) in paragraph at lines 149--176
+[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (43.33339pt too wide) in paragraph at lines 149--176
+[]\OT1/cmr/m/n/10 (#3\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^X
+ []
+
+
+Overfull \hbox (25.55562pt too wide) in paragraph at lines 149--176
+[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (68.19453pt too wide) in paragraph at lines 149--176
+[]\OT1/cmr/m/n/10 (#1\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (68.19453pt too wide) in paragraph at lines 149--176
+[]\OT1/cmr/m/n/10 (#2\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (61.52785pt too wide) in paragraph at lines 149--176
+[]\OT1/cmr/m/n/10 (#3\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (70.55568pt too wide) in paragraph at lines 149--176
+\OMS/cmsy/m/n/10 ^[]\OT1/cmr/m/n/10 (#2\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 ) \
+OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (61.1112pt too wide) in paragraph at lines 149--176
+[]\OT1/cmr/m/n/10 (#3\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (43.33339pt too wide) in paragraph at lines 149--176
+[]\OT1/cmr/m/n/10 (#1\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^X
+ []
+
+
+Overfull \hbox (32.63895pt too wide) in paragraph at lines 149--176
+[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (43.33339pt too wide) in paragraph at lines 149--176
+[]\OT1/cmr/m/n/10 (#2\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^X
+ []
+
+
+Overfull \hbox (32.63895pt too wide) in paragraph at lines 149--176
+[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^
+ []
+
+
+Overfull \hbox (43.33339pt too wide) in paragraph at lines 149--176
+[]\OT1/cmr/m/n/10 (#3\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^X
+ []
+
+
+Overfull \hbox (25.97226pt too wide) in paragraph at lines 149--176
+[]\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 149--176
+[]
+ []
+
+
+Overfull \hbox (310.0pt too wide) in paragraph at lines 149--176
+[]
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 ^^I\end{table} \par
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1]
+Missing character: There is no 至 in font nullfont!
+Missing character: There is no 此 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 原 in font nullfont!
+Missing character: There is no 问 in font nullfont!
+Missing character: There is no 题 in font nullfont!
+Missing character: There is no 就 in font nullfont!
+Missing character: There is no 转 in font nullfont!
+Missing character: There is no 换 in font nullfont!
+Missing character: There is no 为 in font nullfont!
+Missing character: There is no ： in font nullfont!
+Missing character: There is no 寻 in font nullfont!
+Missing character: There is no 找 in font nullfont!
+Missing character: There is no 一 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no 可 in font nullfont!
+Missing character: There is no 将 in font nullfont!
+Missing character: There is no 初 in font nullfont!
+Missing character: There is no 始 in font nullfont!
+Missing character: There is no 状 in font nullfont!
+Missing character: There is no 态 in font nullfont!
+Missing character: There is no 转 in font nullfont!
+Missing character: There is no 换 in font nullfont!
+Missing character: There is no 到 in font nullfont!
+Missing character: There is no 目 in font nullfont!
+Missing character: There is no 标 in font nullfont!
+Missing character: There is no 状 in font nullfont!
+Missing character: There is no 态 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 操 in font nullfont!
+Missing character: There is no 作 in font nullfont!
+Missing character: There is no 序 in font nullfont!
+Missing character: There is no 列 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 如 in font nullfont!
+Missing character: There is no 何 in font nullfont!
+Missing character: There is no 求 in font nullfont!
+Missing character: There is no 得 in font nullfont!
+Missing character: There is no 该 in font nullfont!
+Missing character: There is no 操 in font nullfont!
+Missing character: There is no 作 in font nullfont!
+Missing character: There is no 序 in font nullfont!
+Missing character: There is no 列 in font nullfont!
+Missing character: There is no 。 in font nullfont!
 
 
 ! LaTeX Error: \begin{document} ended by \end{solution}.
@@ -3631,20 +4464,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.144 \end{solution}
+l.178 \end{solution}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 141--145
+Overfull \hbox (20.0pt too wide) in paragraph at lines 177--179
 []
- []
-
-
-Overfull \hbox (206.76167pt too wide) in paragraph at lines 141--145
-\OML/cmm/m/it/10 x$$y$$z$$[]$
  []
 
 
@@ -3654,7 +4482,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.146 \begin{question}
+l.180 \begin{question}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3698,7 +4526,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{question}
+l.182 \end{question}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3711,17 +4539,110 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.149 \begin{solution}
+l.183 \begin{solution}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+Missing character: There is no 规 in font nullfont!
+Missing character: There is no 则 in font nullfont!
+Missing character: There is no 演 in font nullfont!
+Missing character: There is no 绎 in font nullfont!
+Missing character: There is no 系 in font nullfont!
+Missing character: There is no 统 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 方 in font nullfont!
+Missing character: There is no 式 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 正 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 、 in font nullfont!
+Missing character: There is no 逆 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 和 in font nullfont!
+Missing character: There is no 双 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 。 in font nullfont!
+Missing character: There is no 正 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 、 in font nullfont!
+Missing character: There is no 逆 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 特 in font nullfont!
+Missing character: There is no 点 in font nullfont!
+Missing character: There is no 见 in font nullfont!
+Missing character: There is no 表 in font nullfont!
+! Undefined control sequence.
+<write> ...of-rule-based-system' on page \thepage 
+                                                  \space undefined\on@line .^^J
+l.184 ...�\ref{tab:reasoning-of-rule-based-system}
+                                                  ；双向推理组合了�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 147--150
-[]
- []
 
+LaTeX Warning: Reference `tab:reasoning-of-rule-based-system' on page  undefine
+d on input line 184.
+
+Missing character: There is no ； in font nullfont!
+Missing character: There is no 双 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 组 in font nullfont!
+Missing character: There is no 合 in font nullfont!
+Missing character: There is no 了 in font nullfont!
+Missing character: There is no 正 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 和 in font nullfont!
+Missing character: There is no 逆 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 优 in font nullfont!
+Missing character: There is no 点 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 克 in font nullfont!
+Missing character: There is no 服 in font nullfont!
+Missing character: There is no 了 in font nullfont!
+Missing character: There is no 各 in font nullfont!
+Missing character: There is no 自 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 缺 in font nullfont!
+Missing character: There is no 点 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 具 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 更 in font nullfont!
+Missing character: There is no 高 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 搜 in font nullfont!
+Missing character: There is no 索 in font nullfont!
+Missing character: There is no 求 in font nullfont!
+Missing character: There is no 解 in font nullfont!
+Missing character: There is no 效 in font nullfont!
+Missing character: There is no 率 in font nullfont!
+Missing character: There is no 。 in font nullfont!
 
 ! LaTeX Error: Environment table undefined.
 
@@ -3729,7 +4650,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.151 ^^I\begin{table}
+l.185 ^^I\begin{table}
                       [htbp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3742,7 +4663,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.154 ^^I^^I\toprule
+l.188 ^^I^^I\toprule
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3761,7 +4682,7 @@ Missing character: There is no 理 in font nullfont!
 ! Undefined control sequence.
 <recently read> \midrule 
                          
-l.156 ^^I^^I\midrule
+l.190 ^^I^^I\midrule
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3850,7 +4771,7 @@ Missing character: There is no 的 in font nullfont!
 ! Undefined control sequence.
 <recently read> \midrule 
                          
-l.158 ^^I^^I\midrule
+l.192 ^^I^^I\midrule
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3875,7 +4796,7 @@ Missing character: There is no 式 in font nullfont!
 ! Undefined control sequence.
 <recently read> \midrule 
                          
-l.160 ^^I^^I\midrule
+l.194 ^^I^^I\midrule
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3900,7 +4821,7 @@ Missing character: There is no 取 in font nullfont!
 ! Undefined control sequence.
 <recently read> \bottomrule 
                             
-l.162 ^^I^^I\bottomrule
+l.196 ^^I^^I\bottomrule
                        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3909,28 +4830,157 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.198 ^^I\caption
+                 {规则演绎系统系统的推理方式}\label{tab:reasoni...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 规 in font nullfont!
+Missing character: There is no 则 in font nullfont!
+Missing character: There is no 演 in font nullfont!
+Missing character: There is no 绎 in font nullfont!
+Missing character: There is no 系 in font nullfont!
+Missing character: There is no 统 in font nullfont!
+Missing character: There is no 系 in font nullfont!
+Missing character: There is no 统 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 方 in font nullfont!
+Missing character: There is no 式 in font nullfont!
+
 ! LaTeX Error: \begin{document} ended by \end{table}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.164 ^^I\end{table}
+l.199 ^^I\end{table}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 151--165
+Overfull \hbox (20.0pt too wide) in paragraph at lines 181--200
 []
  []
 
 
-Overfull \hbox (260.0pt too wide) in paragraph at lines 151--165
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 181--200
 []
  []
 
+
+Overfull \hbox (300.0pt too wide) in paragraph at lines 181--200
+[]
+ []
+
+Missing character: There is no 产 in font nullfont!
+Missing character: There is no 生 in font nullfont!
+Missing character: There is no 式 in font nullfont!
+Missing character: There is no 系 in font nullfont!
+Missing character: There is no 统 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 方 in font nullfont!
+Missing character: There is no 式 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 正 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 、 in font nullfont!
+Missing character: There is no 逆 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 和 in font nullfont!
+Missing character: There is no 双 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 。 in font nullfont!
+Missing character: There is no 正 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 、 in font nullfont!
+Missing character: There is no 逆 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 特 in font nullfont!
+Missing character: There is no 点 in font nullfont!
+Missing character: There is no 见 in font nullfont!
+Missing character: There is no 表 in font nullfont!
+! Undefined control sequence.
+<write> ...of-production-system' on page \thepage 
+                                                  \space undefined\on@line .^^J
+l.201 ...�\ref{tab:reasoning-of-production-system}
+                                                  ；双向推理结合了�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `tab:reasoning-of-production-system' on page  undefine
+d on input line 201.
+
+Missing character: There is no ； in font nullfont!
+Missing character: There is no 双 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 结 in font nullfont!
+Missing character: There is no 合 in font nullfont!
+Missing character: There is no 了 in font nullfont!
+Missing character: There is no 正 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 和 in font nullfont!
+Missing character: There is no 逆 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 长 in font nullfont!
+Missing character: There is no 处 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 克 in font nullfont!
+Missing character: There is no 服 in font nullfont!
+Missing character: There is no 了 in font nullfont!
+Missing character: There is no 两 in font nullfont!
+Missing character: There is no 者 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 短 in font nullfont!
+Missing character: There is no 处 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 其 in font nullfont!
+Missing character: There is no 控 in font nullfont!
+Missing character: There is no 制 in font nullfont!
+Missing character: There is no 策 in font nullfont!
+Missing character: There is no 略 in font nullfont!
+Missing character: There is no 比 in font nullfont!
+Missing character: There is no 两 in font nullfont!
+Missing character: There is no 者 in font nullfont!
+Missing character: There is no 都 in font nullfont!
+Missing character: There is no 要 in font nullfont!
+Missing character: There is no 复 in font nullfont!
+Missing character: There is no 杂 in font nullfont!
+Missing character: There is no 。 in font nullfont!
 
 ! LaTeX Error: Environment table undefined.
 
@@ -3938,7 +4988,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 ^^I\begin{table}
+l.202 ^^I\begin{table}
                       [htbp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3951,7 +5001,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.169 ^^I^^I\toprule
+l.205 ^^I^^I\toprule
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3970,7 +5020,7 @@ Missing character: There is no 理 in font nullfont!
 ! Undefined control sequence.
 <recently read> \midrule 
                          
-l.171 ^^I^^I\midrule
+l.207 ^^I^^I\midrule
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3990,6 +5040,17 @@ Missing character: There is no 目 in font nullfont!
 Missing character: There is no 标 in font nullfont!
 Missing character: There is no 驱 in font nullfont!
 Missing character: There is no 动 in font nullfont!
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.209 ^^I^^I\midrule
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 Missing character: There is no 推 in font nullfont!
 Missing character: There is no 理 in font nullfont!
 Missing character: There is no 方 in font nullfont!
@@ -4024,6 +5085,17 @@ Missing character: There is no 验 in font nullfont!
 Missing character: There is no 证 in font nullfont!
 Missing character: There is no 解 in font nullfont!
 Missing character: There is no 答 in font nullfont!
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.211 ^^I^^I\midrule
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 Missing character: There is no 启 in font nullfont!
 Missing character: There is no 动 in font nullfont!
 Missing character: There is no 方 in font nullfont!
@@ -4052,6 +5124,17 @@ Missing character: There is no 题 in font nullfont!
 Missing character: There is no 而 in font nullfont!
 Missing character: There is no 启 in font nullfont!
 Missing character: There is no 动 in font nullfont!
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.213 ^^I^^I\midrule
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 Missing character: There is no 透 in font nullfont!
 Missing character: There is no 明 in font nullfont!
 Missing character: There is no 程 in font nullfont!
@@ -4073,6 +5156,17 @@ Missing character: There is no 推 in font nullfont!
 Missing character: There is no 理 in font nullfont!
 Missing character: There is no 过 in font nullfont!
 Missing character: There is no 程 in font nullfont!
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.215 ^^I^^I\midrule
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 Missing character: There is no 推 in font nullfont!
 Missing character: There is no 理 in font nullfont!
 Missing character: There is no 方 in font nullfont!
@@ -4089,6 +5183,17 @@ Missing character: There is no 向 in font nullfont!
 Missing character: There is no 下 in font nullfont!
 Missing character: There is no 推 in font nullfont!
 Missing character: There is no 理 in font nullfont!
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.217 ^^I^^I\midrule
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 Missing character: There is no 优 in font nullfont!
 Missing character: There is no 点 in font nullfont!
 Missing character: There is no 算 in font nullfont!
@@ -4171,6 +5276,17 @@ Missing character: There is no 理 in font nullfont!
 Missing character: There is no 效 in font nullfont!
 Missing character: There is no 率 in font nullfont!
 Missing character: There is no 高 in font nullfont!
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.219 ^^I^^I\midrule
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 Missing character: There is no 缺 in font nullfont!
 Missing character: There is no 点 in font nullfont!
 Missing character: There is no 盲 in font nullfont!
@@ -4300,6 +5416,17 @@ Missing character: There is no 不 in font nullfont!
 Missing character: There is no 便 in font nullfont!
 Missing character: There is no 使 in font nullfont!
 Missing character: There is no 用 in font nullfont!
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.221 ^^I^^I\midrule
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 Missing character: There is no 适 in font nullfont!
 Missing character: There is no 用 in font nullfont!
 Missing character: There is no 场 in font nullfont!
@@ -4398,6 +5525,17 @@ Missing character: There is no 题 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 求 in font nullfont!
 Missing character: There is no 解 in font nullfont!
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.223 ^^I^^I\midrule
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 Missing character: There is no 典 in font nullfont!
 Missing character: There is no 型 in font nullfont!
 Missing character: There is no 系 in font nullfont!
@@ -4420,7 +5558,7 @@ Missing character: There is no G in font nullfont!
 ! Undefined control sequence.
 <recently read> \bottomrule 
                             
-l.181 ^^I^^I\bottomrule
+l.225 ^^I^^I\bottomrule
                        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4429,13 +5567,36 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 ^^I\caption
+                 {产生式系统的推理方式}\label{tab:reasoning-of-pro...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 产 in font nullfont!
+Missing character: There is no 生 in font nullfont!
+Missing character: There is no 式 in font nullfont!
+Missing character: There is no 系 in font nullfont!
+Missing character: There is no 统 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 方 in font nullfont!
+Missing character: There is no 式 in font nullfont!
+
 ! LaTeX Error: \begin{document} ended by \end{table}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.183 ^^I\end{table}
+l.228 ^^I\end{table}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4448,19 +5609,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.184 \end{solution}
+l.229 \end{solution}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 166--185
-[]
+Overfull \hbox (30.86105pt too wide) in paragraph at lines 201--230
+[][]
  []
 
 
-Overfull \hbox (240.0pt too wide) in paragraph at lines 166--185
+Overfull \hbox (300.0pt too wide) in paragraph at lines 201--230
 []
  []
 
@@ -4471,7 +5632,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.186 \begin{question}
+l.231 \begin{question}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4522,7 +5683,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.188 \end{question}
+l.233 \end{question}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4535,7 +5696,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.189 \begin{solution}
+l.234 \begin{solution}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4620,7 +5781,7 @@ Missing character: There is no 效 in font nullfont!
 Missing character: There is no 性 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 187--191
+Overfull \hbox (20.0pt too wide) in paragraph at lines 232--236
 []
  []
 
@@ -4813,7 +5974,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.197 \end{solution}
+l.242 \end{solution}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4826,7 +5987,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.199 \begin{question}
+l.244 \begin{question}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4861,7 +6022,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.201 \end{question}
+l.246 \end{question}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4874,7 +6035,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.202 \begin{solution}
+l.247 \begin{solution}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4919,14 +6080,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.204 \end{solution}
+l.249 \end{solution}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 200--205
+Overfull \hbox (20.0pt too wide) in paragraph at lines 245--250
 []
  []
 
@@ -4937,7 +6098,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.206 \begin{question}
+l.251 \begin{question}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4982,7 +6143,7 @@ Missing character: There is no 规 in font nullfont!
 Missing character: There is no 则 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 207--208
+Overfull \hbox (20.0pt too wide) in paragraph at lines 252--253
 [] 
  []
 
@@ -5052,7 +6213,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.214 \end{question}
+l.259 \end{question}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5065,7 +6226,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.215 \begin{solution}
+l.260 \begin{solution}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5159,7 +6320,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223 \end{solution}
+l.268 \end{solution}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5173,11 +6334,11 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 22 strings out of 495211
- 219 string characters out of 6179843
+ 31 strings out of 495211
+ 363 string characters out of 6179843
  58948 words of memory out of 5000000
- 3413 multiletter control sequences out of 15000+600000
- 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 3420 multiletter control sequences out of 15000+600000
+ 3948 words of font info for 15 fonts, out of 8000000 for 9000
  286 hyphenation exceptions out of 8191
- 18i,8n,12p,270b,138s stack positions out of 5000i,500n,10000p,200000b,80000s
-No pages of output.
+ 18i,10n,14p,285b,140s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on Chapter_3.pdf (1 page).

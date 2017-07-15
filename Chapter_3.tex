@@ -6,7 +6,7 @@
 \begin{solution}
 图搜索的一般过程如下：
 	\begin{enumerate}
-		\item 建立一个只含有起始节点$S$的搜索图$G$，把S放到一个叫做OPEN的未扩展节点表中；
+		\item 建立一个只含有起始节点$S$的搜索图$G$，把$S$放到一个叫做OPEN的未扩展节点表中；
 		\item 建立一个叫CLOSED的已扩展节点表，其初始为空表；
 		\item LOOP：检查OPEN表是否为空，若为空，则失败退出；
 		\item 选择OPEN表上的第一个节点，把它从OPEN表移出放进CLOSED表。并记该节点为节点$n$；
@@ -89,28 +89,36 @@
 	\begin{enumerate}
 		\item 否定之否定：$\sim(\sim P)=P$
 		\item 蕴含与与或形式的等价：$\begin{cases}
-		(P\to Q)=(\sim P \vee Q)\\
-		(\sim P\to Q)=(P \vee Q)
+		P\to Q = \sim P \vee Q\\
+		\sim P\to Q = P \vee Q
 		\end{cases}$ 
+		\item 狄•摩根定律：$\begin{cases}
+		\sim (P \vee Q) = \sim P \wedge \sim Q \\
+		\sim (P \wedge Q) = \sim P \vee \sim Q 
+		\end{cases}$
+		\item 分配律：$\begin{cases}
+		P \vee (Q \wedge R) = (P \vee Q) \wedge (P \vee R) \\
+		P \wedge (Q \vee R) = (P \wedge Q) \vee (P \wedge R)
+		\end{cases}$
+		\item 交换律：$\begin{cases}
+		P \vee Q = Q \vee P \\
+		P \wedge Q = Q \wedge P
+		\end{cases}$
+		\item 结合律：$\begin{cases}
+		P \vee (Q \vee R) = (P \vee Q) \vee R \\
+		P \wedge (Q \wedge R) = (P \wedge Q) \wedge R
+		\end{cases}$
+		\item 逆否率：$(P \to Q) = (\sim Q \to \sim P)$
+		\item 否定跨越量词：$\sim (\exists x) P(x) = (\forall x)[\sim P(x)]$
+		\item 全称量词同与或连词：$\begin{cases}
+		(\forall x)[P(x) \wedge Q(x)] = (\forall x) P(x) \wedge (\forall x) Q(x) \\
+		(\forall x)[P(x) \vee Q(x)] = (\forall x) P(x) \vee (\forall x) Q(x)
+		\end{cases}$
+		\item 量词中的哑元：$\begin{cases}
+		(\forall x) P(x) = (\forall y) P(y) \\
+		(\exists x) P(x) = (\exists y) P(y)
+		\end{cases}$
 	\end{enumerate}
-%（1）否定之否定： ~ ( ~ P ) = P
-%（2）蕴含与与或形式的等价：( P  Q ) = ( ~ P  Q ) 
-%( ~ P  Q ) = ( P  Q）
-%（3）狄 • 摩根定律： ~ ( P  Q ) = ~ P  ~ Q
-%~ ( P  Q ) = ~ P  ~ Q
-%（4） 分配律：P  ( Q  R ) = ( P  Q )  ( P  R )
-%P  ( Q  R ) = ( P  Q )  ( P  R )
-%（5） 交换律：P  Q = Q  P
-%P  Q = Q  P
-%（6） 结合律：P  ( Q  R ) = ( P  Q )  R
-%P  ( Q  R ) = ( P  Q )  R
-%（7） 逆否率：( P  Q ) = ( ~ Q  ~ P ) 
-%（8） 否定跨越量词:~ ( x) P(x) = (x) [ ~ P(x) ]
-%                  ~ (x) P(x) = ( x) [ ~ P(x) ]
-%（9）全称量词同与或连词：(x) [ P(x)  Q(x) ] = (x) P(x)  (x) Q(x)
-%                        (x) [ P(x)  Q(x) ] = (x) P(x)  (x) Q(x) 
-%（10）量词中的哑元：(x) P(x) = (y) P(y) 
-%                    ( x) P(x) = ( y) P(y) 
 \end{solution}
 
 \begin{question}
@@ -126,7 +134,7 @@
 \end{solution}
 
 \begin{question}
-应用最新的方法表达传教士和野人问题，编写一个计算机程序，以求得安全渡过全部6个人的解答。（提示：在应用状态空间表示和搜索方法时，可用$(N_m,N_c)$来表示状态描述，其中$N_m$和$N_c$分别为传教士和野人的人数。初始状态为(3,3)，而可能的中间状态为(0,1),(0,2),(0,3),(1,1),(2,1),(2,2),(3,0),(3,1)和(3,2)等。
+应用最新的方法表达传教士和野人问题，编写一个计算机程序，以求得安全渡过全部$6$个人的解答。（提示：在应用状态空间表示和搜索方法时，可用$(N_m,N_c)$来表示状态描述，其中$N_m$和$N_c$分别为传教士和野人的人数。初始状态为$(3,3)$，而可能的中间状态为$(0,1)$,$(0,2)$,$(0,3)$,$(1,1)$,$(2,1)$,$(2,2)$,$(3,0)$,$(3,1)$和$(3,2)$等。
 \end{question}
 \begin{solution}
 \end{solution}
@@ -138,19 +146,45 @@
 \end{solution}
 
 \begin{question}
-一个机器人驾驶卡车，携带包裹(编号分别为\#1、\#2和\#3)分别投递到林(LIN)、吴(WU)和胡(HU) 3家住宅处。规定了某些简单的操作符，如表示驾驶方位的drive($x$,$y$)和表示卸下包裹的unload($z$)；对于每个操作符，都有一定的先决条件和结果。试说明状态空间问题求解系统如何能够应用谓词演算求得一个操作符序列，该序列能够生成一个满足$\mathrm{AT(\# 1,LIN) \wedge AT(\# 2,WU) \wedge AT(\# 3,HU)}$的目标状态。
+一个机器人驾驶卡车，携带包裹(编号分别为\#1、\#2和\#3)分别投递到林(LIN)、吴(WU)和胡(HU) 3家住宅处。规定了某些简单的操作符，如表示驾驶方位的$\mathrm{drive}(x,y)$和表示卸下包裹的$\mathrm{unload}(z)$；对于每个操作符，都有一定的先决条件和结果。试说明状态空间问题求解系统如何能够应用谓词演算求得一个操作符序列，该序列能够生成一个满足$\mathrm{AT(\# 1,LIN) \wedge AT(\# 2,WU) \wedge AT(\# 3,HU)}$的目标状态。
 \end{question}
 \begin{solution}
+初始状态可描述为：
+	\begin{multline*}
+	\mathrm{AT}(\#1, \sim \mathrm{LIN}) \wedge \mathrm{AT}(\#2, \sim \mathrm{WU}) \wedge \mathrm{AT}(\#3, \sim \mathrm{HU}) \wedge {} \\
+	\mathrm{AT}(\#1, \mathrm{CAR}) \wedge \mathrm{AT}(\#2, \mathrm{CAR}) \wedge \mathrm{AT}(\#3, \mathrm{CAR})
+	\end{multline*} 
+目标状态可描述为：
+	\begin{multline*}
+	\mathrm{AT}(\#1, \mathrm{LIN}) \wedge \mathrm{AT}(\#2, \mathrm{WU}) \wedge \mathrm{AT}(\#3, \mathrm{HU}) \wedge {} \\
+	\mathrm{AT}(\#1, \sim \mathrm{CAR}) \wedge \mathrm{AT}(\#2, \sim \mathrm{CAR}) \wedge \mathrm{AT}(\#3, \sim \mathrm{CAR})
+	\end{multline*}
+对每个操作符都有一定的先决条件和结果，如表\ref{tab:operators}：
+	\begin{table}[htbp]
+	\centering
+	\begin{tabular}{p{50pt}p{130pt}p{130pt}}
+		\toprule
+		~ & 先决条件 & 结果 \\
+		\midrule
+		$\mathrm{drive}(x,y)$ & $\mathrm{AT}(\mathrm{CAR}, x)$ & $\mathrm{AT}(\mathrm{CAR}, y)$ \\
+		\midrule
+		$\mathrm{unload}(z)$ & $\mathrm{AT}(z, \mathrm{CAR}) \wedge \mathrm{AT}(\mathrm{CAR}, x)$ 
+			& $\mathrm{AT}(z, \sim\mathrm{CAR}) \wedge \mathrm{AT}(x, x)$ \\
+		\bottomrule
+	\end{tabular}
+	\caption{每个操作符的先决条件和结果}\label{tab:operators}
+	\end{table} \par
+至此，原问题就转换为：寻找一个可将初始状态转换到目标状态的操作序列，如何求得该操作序列。
 \end{solution}
 
 \begin{question}
 规则演绎系统和产生式系统有哪几种推理方式？各自的特点为是什么？
 \end{question}
 \begin{solution}
-
+规则演绎系统的推理方式有正向推理、逆向推理和双向推理。正向推理、逆向推理的特点见表\ref{tab:reasoning-of-rule-based-system}；双向推理组合了正向推理和逆向推理的优点，克服了各自的缺点，具有更高的搜索求解效率。
 	\begin{table}[htbp]
 	\centering
-	\begin{tabular}{p{80pt}p{90pt}p{90pt}}
+	\begin{tabular}{p{80pt}p{110pt}p{110pt}}
 		\toprule
 		~ & 正向推理 & 逆向推理 \\
 		\midrule
@@ -161,25 +195,36 @@
 		事实表达式 & 任意形式 & 文字的合取 \\
 		\bottomrule
 	\end{tabular}
+	\caption{规则演绎系统系统的推理方式}\label{tab:reasoning-of-rule-based-system}
 	\end{table} 
-	
+	\par
+产生式系统的推理方式有正向推理、逆向推理和双向推理。正向推理、逆向推理的特点见表\ref{tab:reasoning-of-production-system}；双向推理结合了正向推理和逆向推理的长处，克服了两者的短处，其控制策略比两者都要复杂。
 	\begin{table}[htbp]
 	\centering
-	\begin{tabular}{p{80pt}p{80pt}p{80pt}}
+	\begin{tabular}{p{80pt}p{110pt}p{110pt}}
 		\toprule
 		~ & 正向推理 & 逆向推理 \\
 		\midrule
-		驱动方式 & 数据驱动 & 目标驱动 \\
-		推理方法 & 从一组数据出发向前推到结论 & 从可能的解答出发，向后推理验证解答 \\
-		启动方法 & 从一个事件启动 & 由询问关于目标状态的一个问题而启动 \\
-		透明程度 & 不能解释其推理过程 & 可解释其推理过程 \\
-		推理方向 & 由底向上推理 & 由顶向下推理 \\
-		优点 & 算法简单、容易实现，允许用户一开始就把有关的事实数据存入数据库，在执行过程中系统能很快获得这些数据，而不必等到系统需要数据时才向用户询问 & 搜索目的性强，推理效率高 \\
-		缺点 & 盲目搜索，可能会求解许多与总目标无关的子目标，每当总数据库内容更新后都要遍历整个规则库，推理效率较低 & 目标的选择具有盲目性，可能会求解许多假的目标；当可能的结论数目很多，即目标空间很大时，推理效率不高；当规则的右部是执行某种动作不是结论时，逆向推理不便使用 \\
-		适用场合 & 主要用于已知初始数据，而无法提供推理目标，或解空间很大的一类问题，如监控、预测、规划、设计等问题的求解 & 主要用于结论单一或者已知目标结论，而要求验证的系统，如选择、分类、故障诊断等问题的求解 \\
+		驱动方式 & 数据驱动 & 目标驱动 \\ 
+		\midrule
+		推理方法 & 从一组数据出发向前推到结论 & 从可能的解答出发，向后推理验证解答 \\ 
+		\midrule
+		启动方法 & 从一个事件启动 & 由询问关于目标状态的一个问题而启动 \\ 
+		\midrule
+		透明程度 & 不能解释其推理过程 & 可解释其推理过程 \\ 
+		\midrule
+		推理方向 & 由底向上推理 & 由顶向下推理 \\ 
+		\midrule
+		优点 & 算法简单、容易实现，允许用户一开始就把有关的事实数据存入数据库，在执行过程中系统能很快获得这些数据，而不必等到系统需要数据时才向用户询问 & 搜索目的性强，推理效率高 \\ 
+		\midrule
+		缺点 & 盲目搜索，可能会求解许多与总目标无关的子目标，每当总数据库内容更新后都要遍历整个规则库，推理效率较低 & 目标的选择具有盲目性，可能会求解许多假的目标；当可能的结论数目很多，即目标空间很大时，推理效率不高；当规则的右部是执行某种动作不是结论时，逆向推理不便使用 \\ 
+		\midrule
+		适用场合 & 主要用于已知初始数据，而无法提供推理目标，或解空间很大的一类问题，如监控、预测、规划、设计等问题的求解 & 主要用于结论单一或者已知目标结论，而要求验证的系统，如选择、分类、故障诊断等问题的求解 \\ 
+		\midrule
 		典型系统 & CLIPS，OPS & PROLOG \\
 		\bottomrule
 	\end{tabular}
+	\caption{产生式系统的推理方式}\label{tab:reasoning-of-production-system}
 	\end{table}
 \end{solution}
 
@@ -213,11 +258,11 @@
 	\end{enumerate}
 \end{question}
 \begin{solution}
+产生式规则如下：
 	\begin{enumerate}
 		\item IF 两个三角形全等 THEN 各对应角相等 
 		\item IF 两个三角形全等 THEN 各对应边相等 
 		\item IF 两个三角形各对应边相等 THEN 两三角形全等 
 		\item IF 它是等腰三角形 THEN 它的两底角相等
 	\end{enumerate}
-
 \end{solution}
