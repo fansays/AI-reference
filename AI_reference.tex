@@ -4,6 +4,8 @@
 \usepackage{titlesec}
 \usepackage{booktabs}
 \usepackage{tabulary}
+\usepackage[multidot]{grffile}
+\usepackage{graphicx}
 
 \usepackage{enumitem}
 \setlist{nolistsep}
@@ -22,9 +24,10 @@
 }
 \SetupExSheets{
   headings = mylist , % use the new headings instance
-  headings-format = \normalfont ,
+  headings-format = \normalfont\bfseries ,
   counter-within = section ,
-  solution/print = true
+  solution/print = true ,
+  solution/pre-body-hook = {\textsf{答}　}
 }
 \let\oldquestion\question
 \let\oldsolution\solution
@@ -58,5 +61,6 @@
 \input{Chapter_4.tex}
 \input{Chapter_5.tex}
 \input{Chapter_6.tex}
+\input{Chapter_7.tex}
 
 \end{document}

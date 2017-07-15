@@ -1,0 +1,173 @@
+\chapter{机器学习}
+
+\begin{question}
+什么是学习和机器学习？为什么要研究机器学习？
+\end{question}
+\begin{solution}
+按照人工智能大师西蒙的观点，学习就是系统在不断重复的工作中对本身能力的增强或者改进，使得系统在下一次执行同样任务或类似任务时，会比现在做得更好或效率更高。机器学习是研究如何使用机器来模拟人类学习活动的一门学科，是机器学习是一门研究机器获取新知识和新技能，并识别现有知识的学问。这里所说的“机器”，指的就是计算机。现有的计算机系统和人工智能系统没有什么学习能力，至多也只有非常有限的学习能力，因而不能满足科技和生产提出的新要求。 
+\end{solution}
+
+\begin{question}
+试述机器学习系统的基本结构，并说明各部分的作用。
+\end{question}
+\begin{solution}
+机器学习系统基本结构如图××。环境向系统的学习部分提供某些信息，学习部分利用这些信息修改知识库，以增进系统执行部分完成任务的效能，执行部分根据知识库完成任务，同时把获得的信息反馈给学习部分。 影响学习系统设计的最重要的因素是环境向系统提供的信息。更具体地说是信息的质量。 
+\end{solution}
+
+\begin{question}
+简介决策树学习的结构。
+\end{question}
+\begin{solution}
+\end{solution}
+
+\begin{question}
+试说明归纳学习的模式和学习方法。
+\end{question}
+\begin{solution}
+归纳是一种从个别到一般，从部分到整体的推理行为。
+	\begin{description}
+		\item[归纳学习的一般模式] 给定观察陈述（事实）$F$，假定的初始归纳断言（可能为空），及背景知识；求归纳断言（假设）$H$，能重言蕴涵或弱蕴涵观察陈述，并满足背景知识。 
+		\item[归纳学习的学习方法] \quad
+			\begin{enumerate}
+				\item 示例学习 \par
+				它属于有师学习，是通过从环境中取得若干与某概念有关的例子，经归纳得出一般性概念的一种学习方法。示例学习就是要从这些特殊知识中归纳出适用于更大范围的一般性知识，它将覆盖所有的正例并排除所有反例。
+				\item 观察发现学习 \par
+				它属于无师学习，其目标是确定一个定律或理论的一般性描述，刻画观察集，指定某类对象的性质。它分为观察学习与机器发现两种，前者用于对事例进行聚类，形成概念描述，后者用于发现规律，产生定律或规则。 
+			\end{enumerate}
+	\end{description}
+\end{solution}
+
+\begin{question}
+什么是类比学习？其推理和学习过程为何？
+\end{question}
+\begin{solution}
+类比是一种很有用和很有效的推理方法，它能清晰，简洁地描述对象间的相似性，是人类认识世界的一种重要方法。\par
+类比推理的目的是从源域$S$中，选出与目标域$T$最近似的问题及其求解方法，解决当前问题，或者建立起目标域中已有命题间的联系，形成新知识。 
+类比学习就是通过类比，即通过对相似事物加以比较所进行的一种学习。\par
+类比推理过程如下：
+	\begin{enumerate}
+		\item 回忆与联想 \par
+		通过回忆与联想在源域$S$中找出与目标域$T$相似的情况。 
+		\item 选择 \par
+		从找出的相似情况中，选出与目标域$T$最相似的情况及其有关知识。 
+		\item 建立对应关系 \par
+		在源域$S$与目标域$T$之间建立相似元素的对应关系，并建立起相应的映射。 
+		\item 转换 \par
+		把S中的有关知识引到$T$中来，从而建立起求解当前问题的方法或者学习到关于$T$的新知识。 
+	\end{enumerate} \par
+类比学习过程主要包括： 
+	\begin{enumerate}
+		\item 输入一组已经条件（已解决问题）和一组未完全确定的条件（新问题）；
+		\item 按照某种相似性的定义，寻找两者可类比的对应关系；
+		\item 根据相似变换的方法，建立从已解决问题到新问题的映射，以获得待求解问题所需的新知识；
+		\item 对通过类比推理得到的关于新问题的知识进行校验。验证正确的知识存入知识库中，暂时无法验证的知识作为参考性知识，置于数据库中。
+	\end{enumerate}
+\end{solution}
+
+\begin{question}
+用C语言编写一套计算机程序，用于执行BP学习算法。
+\end{question}
+\begin{solution}
+\end{solution}
+
+\begin{question}
+试应用神经网络模型优化求解销售员旅行问题。
+\end{question}
+\begin{solution}
+\end{solution}
+
+\begin{question}
+考虑一个具有阶梯型阈值函数的神经网络，假设
+	\begin{enumerate}
+		\item 用一常数乘所有的权值和阈值； 
+		\item 用一常数加于所有权值和阈值。 
+	\end{enumerate}
+试说明网络性能是否会变化。
+\end{question}
+\begin{solution}
+\end{solution}
+
+\begin{question}
+增大权值是否能够使BP学习变慢？
+\end{question}
+\begin{solution}
+是。
+\end{solution}
+
+\begin{question}
+什么是知识发现？知识发现与数据挖掘有何关系？ 
+\end{question}
+\begin{solution}
+根据费亚德的定义，数据库中的知识发现是从大量数据中辨识出有效的、新颖的、潜在有用的、并可被理解的模式的高级处理过程。 \par
+数据挖掘是知识发现中的一个步骤，它主要是利用某些特定的知识发现算法，在一定的运算效率内，从数据中发现出有关的知识。
+\end{solution}
+
+\begin{question}
+试说明知识发现的处理过程。
+\end{question}
+\begin{solution}
+费亚德的知识发现过程包括：
+	\begin{enumerate}
+		\item 数据选择 \par
+		根据用户需求从数据库中提取与知识发现相关的数据 
+		\item 数据预处理 \par
+		检查数据的完整性与数据的一致性，对噪音数据进行处理，对丢失的数据利用统计方法进行填补，进行发掘数据库
+		\item 数据变换 \par
+		利用聚类分析和判别分析，从发掘数据库里选择数据
+		\item 数据挖掘 
+		\item 知识评价 \par
+		对所获得的规则进行价值评定，以决定所得到的规则是否存入基础知识库 
+	\end{enumerate}
+知识发现的全过程，可进一步归纳为三个步骤，即数据挖掘预处理、数据挖掘、数据挖掘后处理。 
+\end{solution}
+
+\begin{question}
+有哪几种比较常用的知识发现方法？试略加介绍。
+\end{question}
+\begin{solution}
+常用的知识发现方法有：
+	\begin{enumerate}
+		\item 统计方法 \par
+		统计方法是从事物外在数量上的表现去推断事物可能的规律性，包括传统方法，模糊集，支持向量机，粗糙集。
+		\item 机器学习方法 \par
+		包括规则归纳，决策树，范例推理，贝叶斯信念网络，科学发现，遗传算法。
+		\item 神经计算方法 \par
+		常用的有多层感知器，反向传播网络，自适应映射网络。
+		\item 可视化方法 \par
+		使用有效的可视化界面，可以快速，高效地与大量数据打交道，以发现其中隐藏的特征，关系，模式和趋势。
+	\end{enumerate}
+\end{solution}
+
+\begin{question}
+知识发现的应用领域有哪些？试展望知识发现的发展和应用前景。
+\end{question}
+\begin{solution}
+	\begin{enumerate}
+		\item 金融业 \par
+		数据清理、金融市场分析和预测、账户分类、银行担保和信用评估。
+		\item 保险业 \par
+		通过对索赔者的资料与索赔历史数据模式进行比较，以判定用户的索赔是否合理。
+		\item 制造业 \par
+		零部件故障诊断、资源优化、生产过程分析。
+		\item 市场和零售业 \par
+		销售预测、库存需求、零售点选择和价格分析。
+		\item 医疗业 \par
+		数据清理，预测医疗保健费用。
+		\item 司法 \par
+		案件调查、诈骗检测、洗钱认证和犯罪组织分析。
+		\item 工程与科学 \par
+		工程与科学数据分析。
+	\end{enumerate}
+\end{solution}
+
+\begin{question}
+增强学习有何特点？学习自动机的学习模式为何？
+\end{question}
+\begin{solution}
+\end{solution}
+
+\begin{question}
+什么是$Q^-$学习？它有何优缺点？
+\end{question}
+\begin{solution}
+\end{solution}
