@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.7.13)  16 JUL 2017 01:06
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.7.13)  17 JUL 2017 11:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2027,18 +2027,30 @@ Underfull \vbox (badness 1348) has occurred while \output is active []
 
 ]
 第二章
-[9]
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 32.
+(Font)              size <10.95> substituted on input line 15.
 
-File: ques-2.4.pdf Graphic file (type QTm)
-<use  "ques-2.4.pdf" > [10]) (./Chapter_3.tex [11] [12
+[9]
+File: figures/ques-2.3.pdf Graphic file (type QTm)
+ <use  "figures/ques-2.3.pdf" >
+File: figures/ques-2.4.pdf Graphic file (type QTm)
+ <use  "figures/ques-2.4.pdf" >
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-]
+[10]
+File: figures/ans-2.4.pdf Graphic file (type QTm)
+ <use  "figures/ans-2.4.pdf" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11])
+(./Chapter_3.tex [12]
 第三章
-[13] [14]
+[13
+
+
+] [14]
 Underfull \vbox (badness 2932) has occurred while \output is active []
 
  [15]
@@ -2047,20 +2059,27 @@ Overfull \hbox (26.77896pt too wide) in paragraph at lines 122--122
 []\EU1/FandolSong-Regular(0)/m/n/10.53937 全 称 量 词 同 与 或 连 词：| $[]$ 
  []
 
-[17]
-Overfull \hbox (1.0pt too wide) in paragraph at lines 178--178
+File: figures/ques-3.6.pdf Graphic file (type QTm)
+<use  "figures/ques-3.6.pdf" >
+File: figures/ques-3.7.pdf Graphic file (type QTm)
+ <use  "figures/ques-3.7.pdf" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17] [18]
+Overfull \hbox (1.0pt too wide) in paragraph at lines 188--188
  [][] 
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 229--229
+Underfull \hbox (badness 1454) in paragraph at lines 239--239
 \EU1/FandolSong-Regular(0)/m/n/10.53937 而 无 法 提 供 推 理 目 标，|
  []
 
 
-LaTeX Warning: Float too large for page by 2.10738pt on input line 229.
+LaTeX Warning: Float too large for page by 2.10738pt on input line 239.
 
-[18] [19] [20]) (./Chapter_4.tex [21] [22
+[19] [20]) (./Chapter_4.tex [21] [22
 
 
 ]
@@ -2106,12 +2125,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 32293 strings out of 495211
- 677637 string characters out of 6179843
- 702050 words of memory out of 5000000
- 35122 multiletter control sequences out of 15000+600000
+ 32309 strings out of 495211
+ 677889 string characters out of 6179843
+ 700896 words of memory out of 5000000
+ 35133 multiletter control sequences out of 15000+600000
  9006 words of font info for 65 fonts, out of 8000000 for 9000
  286 hyphenation exceptions out of 8191
- 65i,13n,79p,10436b,681s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,18n,79p,10436b,681s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on AI_reference.pdf (41 pages).
