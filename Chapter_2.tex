@@ -78,6 +78,22 @@
 	\end{quote}
 \end{question}
 \begin{solution}
+定义基本的谓词：
+	\begin{description}
+		\item[$\mathrm{INTLT}(x)$]	$x$ is intelligent.
+		\item[$\mathrm{PERFORM}(x,y)$]	$x$ can perform $y$.
+		\item[$\mathrm{REQUIRE}(x)$]		$x$ requires intelligence.
+		\item[$\mathrm{CMP}(x)$]		$x$ is a computer system.
+		\item[$\mathrm{HMN}(x)$]		$x$ is a human.
+	\end{description} \par
+则题中句子可以表达为
+	\begin{multline*}
+	\left\{ \left( \exists t \right) \left( \exists y \right)
+	\left[ \mathrm{HMN}(x) \vee \mathrm{PERFORM}(y,t) \vee \mathrm{REQUIRE}(t)
+	\vee \mathrm{CMP}(x) 
+	\vee \mathrm{PERFORM}(x,t) \right] 
+	\to \mathrm{INTLT}(x) \right\} 
+	\end{multline*}
 \end{solution}
 
 \begin{question}

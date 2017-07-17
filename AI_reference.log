@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.7.13)  17 JUL 2017 11:49
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.7.13)  17 JUL 2017 22:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2044,17 +2044,21 @@ File: figures/ans-2.4.pdf Graphic file (type QTm)
  <use  "figures/ans-2.4.pdf" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11])
-(./Chapter_3.tex [12]
+ [11]
+Overfull \hbox (171.03131pt too wide) detected at line 97
+ []$[]   []  $ 
+ []
+
+[12]) (./Chapter_3.tex [13] [14
+
+
+]
 第三章
-[13
-
-
-] [14]
+[15] [16]
 Underfull \vbox (badness 2932) has occurred while \output is active []
 
- [15]
-[16]
+ [17]
+[18]
 Overfull \hbox (26.77896pt too wide) in paragraph at lines 122--122
 []\EU1/FandolSong-Regular(0)/m/n/10.53937 全 称 量 词 同 与 或 连 词：| $[]$ 
  []
@@ -2066,7 +2070,7 @@ File: figures/ques-3.7.pdf Graphic file (type QTm)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17] [18]
+[19] [20]
 Overfull \hbox (1.0pt too wide) in paragraph at lines 188--188
  [][] 
  []
@@ -2079,46 +2083,46 @@ Underfull \hbox (badness 1454) in paragraph at lines 239--239
 
 LaTeX Warning: Float too large for page by 2.10738pt on input line 239.
 
-[19] [20]) (./Chapter_4.tex [21] [22
+[21] [22]) (./Chapter_4.tex [23] [24
 
 
 ]
 第四章
-) (./Chapter_5.tex [23] [24
+) (./Chapter_5.tex [25] [26
 
 
 ]
 第五章
-[25] [26] [27]) (./Chapter_6.tex [28]
+[27] [28] [29]) (./Chapter_6.tex [30]
 第六章
-[29
+[31
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
-[31]
-Underfull \vbox (badness 2469) has occurred while \output is active []
-
  [32]
 [33]
-Underfull \vbox (badness 2671) has occurred while \output is active []
+Underfull \vbox (badness 2469) has occurred while \output is active []
 
  [34]
+[35]
+Underfull \vbox (badness 2671) has occurred while \output is active []
+
+ [36]
 Underfull \vbox (badness 2932) has occurred while \output is active []
 
- [35])
-(./Chapter_7.tex [36]
+ [37])
+(./Chapter_7.tex [38]
 第七章
-[37
+[39
 
 
-] [38] [39]
+] [40] [41]
 Underfull \vbox (badness 1796) has occurred while \output is active []
 
- [40])
-[41] (./AI_reference.aux)
+ [42])
+[43] (./AI_reference.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
@@ -2127,10 +2131,10 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  32309 strings out of 495211
  677889 string characters out of 6179843
- 700896 words of memory out of 5000000
+ 702055 words of memory out of 5000000
  35133 multiletter control sequences out of 15000+600000
  9006 words of font info for 65 fonts, out of 8000000 for 9000
  286 hyphenation exceptions out of 8191
  65i,18n,79p,10436b,681s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on AI_reference.pdf (41 pages).
+Output written on AI_reference.pdf (43 pages).
