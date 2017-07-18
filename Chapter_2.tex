@@ -49,7 +49,7 @@
 	\begin{figure}[h]
 		\centering
 		\includegraphics{figures/ans-2.4.pdf}
-		\caption{所求与或解树} \label{Fig:and-or-tree-for-elec}
+		\caption{电网络阻抗计算与或解树} \label{Fig:and-or-tree-for-elec}
 	\end{figure}
 \end{solution}
 
@@ -57,6 +57,13 @@
 试用四元数列结构表示四圆盘梵塔问题，并画出求解该问题的与或图。
 \end{question}
 \begin{solution}
+用四元数列$(n_A, n_B, n_C, n_D)$来表示A、B、C、D盘分别落在$n_A$、$n_B$、$n_C$、$n_D$号柱子上。则问题科的初始状态为$(1,1,1,1)$，目标状态为$(3,3,3,3)$。\par
+求解问题的与或图如图\ref{Fig:and-or-tree-for-hannoi}，按从上往下的顺序，依次处理每一个叶结点，搬动圆盘，问题得解。 
+	\begin{figure}[h]
+		\centering
+		\includegraphics{figures/ans-2.5.pdf}
+		\caption{樊塔问题与或树} \label{Fig:and-or-tree-for-hannoi}
+	\end{figure}
 \end{solution}
 
 \begin{question}
@@ -69,6 +76,12 @@
 	\end{enumerate}
 \end{question}
 \begin{solution}
+	\begin{enumerate}
+		\item $\sim P(x) \wedge P(x)$
+		\item $\sim \mathrm{On}(x,y) \wedge \mathrm{Above}(x,y)$
+		\item 
+		\item 
+	\end{enumerate}
 \end{solution}
 
 \begin{question}
@@ -78,21 +91,21 @@
 	\end{quote}
 \end{question}
 \begin{solution}
-定义基本的谓词：
-	\begin{description}
-		\item[$\mathrm{INTLT}(x)$]	$x$ is intelligent.
-		\item[$\mathrm{PERFORM}(x,y)$]	$x$ can perform $y$.
-		\item[$\mathrm{REQUIRE}(x)$]		$x$ requires intelligence.
-		\item[$\mathrm{CMP}(x)$]		$x$ is a computer system.
-		\item[$\mathrm{HMN}(x)$]		$x$ is a human.
-	\end{description} \par
+定义以下谓词：
+	\begin{itemize}
+		\item $\mathrm{INTLT}(x)$:	$x$ is intelligent.
+		\item $\mathrm{PERFORM}(x,y)$:	$x$ can perform $y$.
+		\item $\mathrm{REQUIRE}(x)$:		$x$ requires intelligence.
+		\item $\mathrm{CMP}(x)$:		$x$ is a computer system.
+		\item $\mathrm{HMN}(x)$:		$x$ is a human.
+	\end{itemize} \par
 则题中句子可以表达为
 	\begin{multline*}
-	\left\{ \left( \exists t \right) \left( \exists y \right)
+	\left( \exists t \right) \left( \exists y \right)
 	\left[ \mathrm{HMN}(x) \vee \mathrm{PERFORM}(y,t) \vee \mathrm{REQUIRE}(t)
-	\vee \mathrm{CMP}(x) 
-	\vee \mathrm{PERFORM}(x,t) \right] 
-	\to \mathrm{INTLT}(x) \right\} 
+	\vee \mathrm{CMP}(x) \right. \\
+	\left. \vee \mathrm{PERFORM}(x,t) \right] 
+	\to \mathrm{INTLT}(x)
 	\end{multline*}
 \end{solution}
 
@@ -105,12 +118,24 @@
 	\end{enumerate}
 \end{question}
 \begin{solution}
+如图\ref{Fig:semantic-net}。
+	\begin{figure}[h]
+		\centering
+		\includegraphics{figures/ans-2.8.pdf}
+		\caption{ 语义网络 } \label{Fig:semantic-net}
+	\end{figure}
 \end{solution}
 
 \begin{question}
 试构造一个描述你的寝室或办公室的框架系统。
 \end{question}
 \begin{solution}
+以房间为例，如图\ref{Fig:semantic-my-room}。
+	\begin{figure}[h]
+		\centering
+		\includegraphics{figures/ans-2.9.pdf}
+		\caption{ 我的房间语义网络 } \label{Fig:semantic-my-room}
+	\end{figure}
 \end{solution}
 
 \begin{question}
