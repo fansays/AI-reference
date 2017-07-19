@@ -4,16 +4,19 @@
 计算智能的含义是什么？它涉及哪些研究分支？
 \end{question}
 \begin{solution}
+计算智能是一种智力方式的低层认知，它取决于制造者提供的数值数据，而不依赖于知识。它与人工智能的主要区别在于它不含知识精品。\par
+计算智能涉及神经计算、模糊计算、进化计算和人工生命等领域。
 \end{solution}
 
 \begin{question}
 试述计算智能（CI）、人工智能（AI）和生物智能（BI）的关系。
 \end{question}
 \begin{solution}
+CI$\subset$AI$\subset$BI；并且CI与AI的差异要比AI与BI的差异小得多。
 \end{solution}
 
 \begin{question}
-人工神经网络为什么具有有人的发展前景和潜在的广泛应用领域？
+人工神经网络为什么具有诱人的发展前景和潜在的广泛应用领域？
 \end{question}
 \begin{solution}
 \end{solution}
@@ -39,6 +42,11 @@
 构作一个神经网络，用于计算含有两个输入的XOR函数。指定所用神经网络单元的种类。
 \end{question}
 \begin{solution}
+	\begin{figure}[h]
+		\centering
+		\input{figures/ans-5.6.tex}
+		\caption{XOR问题的神经网络} \label{Fig:NN-XOR}
+	\end{figure}
 \end{solution}
 
 \begin{question}
@@ -61,12 +69,14 @@
 什么是模糊性？它的对立含义是什么？试各举出两个例子加以说明。
 \end{question}
 \begin{solution}
+所谓模糊性是指客观事物在形态及类属方面的不分明性，其根源是在类似食物间存在一系列过渡状态，它们互相渗透，互相贯通，使得彼此之间没有明显的界限。它的对立含义是``确定性''。例如，通常说``某人很年轻''、``某人比较年轻''之间没有明显的界限，所以它们都是模糊的。
 \end{solution}
 
 \begin{question}
 什么是模糊集合和隶属函数或隶属度？
 \end{question}
 \begin{solution}
+论域$U$到$[0,1]$区间的任意映射$\mu_F$，即$\mu_F \colon U \to [0,1]$，都确定$U$的一个模糊子集$F$，则$\mu_F$称为$F$的隶属函数或隶属度。
 \end{solution}
 
 \begin{question}
@@ -79,15 +89,17 @@
 什么是模糊推理？
 \end{question}
 \begin{solution}
+模糊推理以模糊判断为前提，动用模糊语言规则，推导出一个近似的模糊判断理论。
 \end{solution}
 
 \begin{question}
 对某种产品的质量进行抽查评估。现随机选出5个产品$x_1$，$x_2$，$x_3$，$x_4$，$x_5$进行检验，它们质量情况分别为：
 \[ x_1=80, x_2=72, x_3=65, x_4=98, x_5=53\]
-这就确定了一个模糊集合$Q$，表示该组产品的``质量水平‘’这个模糊概念的隶属程度。
+这就确定了一个模糊集合$Q$，表示该组产品的``质量水平''这个模糊概念的隶属程度。
 试写出该模糊集。
 \end{question}
 \begin{solution}
+该模糊集为$Q={(x_1,0.8), (x_2, 0.72), (x_3,0.65), (x_4,0.98), (x_5,0.53)}$。
 \end{solution}
 
 \begin{question}
@@ -100,8 +112,8 @@
 		\item 初始化种群；
 		\item 计算种群上每个个体的适应度值；
 		\item 按由个体适应度值所决定的某个规则选择将进入下一代的个体；
-		\item 按概率Pc进行交叉操作；
-		\item 按概率Pc进行变异操作；
+		\item 按概率$P_c$进行交叉操作；
+		\item 按概率$P_c$进行变异操作；
 		\item 若没有满足某中停止条件，则转(2)，否则进入下一步；
 		\item 输出中群中适应度最优的染色体作为问题的满意解或最优解。
 	\end{enumerate}
