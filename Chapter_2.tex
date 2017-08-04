@@ -7,7 +7,8 @@
 状态空间法：基于解答空间的问题表示和求解方法，它是以状态和算符为基础来表示和求解问题的。一般用状态空间法来表示下述方法：从某个初始状态开始，每次加一个操作符，递增的建立起操作符的试验序列，直到达到目标状态为止。 \par
 问题规约法：已知问题的描述，通过一系列变换把此问题最终变成一个子问题集合：这些子问题的解可以直接得到，从而解决了初始问题。问题规约的实质：从目标（要解决的问题）出发逆向推理，建立子问题以及子问题的子问题，直至最后把出示问题规约为一个平凡的本原问题集合。 \par
 谓词逻辑法：采用谓词合式公式和一阶谓词算法。要解决的问题变为一个有待证明的问题，然后采用消解定理和消解反演莱证明一个新语句是从已知的正确语句导出的，从而证明这个新语句也是正确的。\par
-语义网络法：是一种结构化表示方法，它由节点和弧线或链组成。节点用于表示物体、概念和状态，弧线用于表示节点间的关系。语义网络的解答是一个经过推理和匹配而得到的具有明确结果的新的语义网络。语义网络可用于表示多元关系，扩展后可以表示更复杂的问题。
+语义网络法：是一种结构化表示方法，它由节点和弧线或链组成。节点用于表示物体、概念和状态，弧线用于表示节点间的关系。语义网络的解答是一个经过推理和匹配而得到的具有明确结果的新的语义网络。语义网络可用于表示多元关系，扩展后可以表示更复杂的问题。\par
+它们的本质都是对一具体事实知识表示，只是表示的方法不同。对于同一问题可以有许多不同的表示方法。不过对于特点个问题，有的表示方法比较有效，其他表示方法可能不大适用，或者不是好的表示方法。在表示和求解比较复杂的问题时，采用单一的知识表示方法是远远不够的，往往必须采用多种方法混合表示。此外，在选择知识表示方法时，还要考虑所使用的程序设计语言所提供的功能和特点，以便能够更好地描述这些表示方法。
 \end{solution}
 
 \begin{question}
@@ -25,49 +26,52 @@
 
 \begin{question}
 利用图\ref{Fig:TSP-problem}，用状态空间法规划一个最短的旅行路程：此旅程从城市A开始，访问其他城市不多于一次，并返回A。选择一个状态表示，表示出所求得的状态空间的节点及弧线，标出适当的代价，并指明图中从起始节点到目标节点的最佳路径。
+\begin{figure} [h]
+		\centering
+		\includegraphics[scale=.8]{figures/ques-2.3.pdf}
+		\caption{旅行商问题} \label{Fig:TSP-problem}
+	\end{figure}
 \end{question}
 \begin{solution}
 用状态空间法表示所求路径如图\ref{Fig:TSP-answer}所示。
 	\begin{figure} [h]
 		\centering
+		\input{figures/ans-2.3.tex}
+		\caption{旅行商问题状态空间图} \label{Fig:TSP-answer}
 	\end{figure}
 \end{solution}
 
 \begin{question}
 试说明怎样用一棵与或解树来表达图\ref{Fig:elec}所示的电网络阻抗的计算。单独的$R$、$L$或$C$可分别用$R$、$j\omega L$或$1/j\omega C$来计算，这个事实用作本原问题。后继算符应以复合并联和串联阻抗的规则为基础。
+	\begin{figure}[H]
+		\centering
+		\includegraphics{figures/ques-2.4.pdf}
+		\caption{电网络阻抗计算} \label{Fig:elec}
+	\end{figure}
 \end{question}
 \begin{solution}
 约定，用原来的与后继算法用来表达并联关系，用原来的或后继算法用来表达串联关系。则所求与或解树如图\ref{Fig:and-or-tree-for-elec}所示。
 \end{solution}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=.8]{figures/ans-2.4.pdf}
+		\caption{电网络阻抗计算与或解树} \label{Fig:and-or-tree-for-elec}
+	\end{figure}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=.8]{figures/ans-2.5.pdf}
+		\caption{樊塔问题与或树} \label{Fig:and-or-tree-for-hannoi}
+	\end{figure} 
 
 \begin{question}
 试用四元数列结构表示四圆盘梵塔问题，并画出求解该问题的与或图。
 \end{question}
 \begin{solution}
 用四元数列$(n_A, n_B, n_C, n_D)$来表示A、B、C、D盘分别落在$n_A$、$n_B$、$n_C$、$n_D$号柱子上。则问题科的初始状态为$(1,1,1,1)$，目标状态为$(3,3,3,3)$。\par
-求解问题的与或图如图\ref{Fig:and-or-tree-for-hannoi}，按从上往下的顺序，依次处理每一个叶结点，搬动圆盘，问题得解。 
+求解问题的与或图如图\ref{Fig:and-or-tree-for-hannoi}，按从上往下的顺序，依次处理每一个叶结点，搬动圆盘，问题得解。
 \end{solution}
-
-	\begin{figure}[H]
-		\centering
-		\includegraphics[scale=.8]{figures/ques-2.3.pdf}
-		\caption{旅行商问题} \label{Fig:TSP-problem}
-		\vspace{1cm}
-		\input{figures/ans-2.3.tex}
-		\caption{旅行商问题状态空间图} \label{Fig:TSP-answer}
-		\vspace{1cm}
-		\includegraphics{figures/ques-2.4.pdf}
-		\caption{电网络阻抗计算} \label{Fig:elec}
-	\end{figure}
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[scale=.8]{figures/ans-2.4.pdf}
-		\caption{电网络阻抗计算与或解树} \label{Fig:and-or-tree-for-elec}
-		\vspace{1cm}
-		\includegraphics[scale=.8]{figures/ans-2.5.pdf}
-		\caption{樊塔问题与或树} \label{Fig:and-or-tree-for-hannoi}
-	\end{figure}
 
 \begin{question}
 把下列句子变换成子句形式：
@@ -80,10 +84,63 @@
 \end{question}
 \begin{solution}
 	\begin{enumerate}
-		\item $\sim P(x) \wedge P(x)$
-		\item $\sim \mathrm{On}(x,y) \wedge \mathrm{Above}(x,y)$
-		\item 
-		\item 
+		 \item $\left(\forall x\right) \left\{P\left(x\right) \to P\left(x\right)\right\}$ \\
+		 	消去蕴含符号：
+		 	\[(\forall x) [ \sim P(x) \vee P(x)] \]
+		 	消去全称量词：
+		 	\[\sim P(x) \vee P(x) \]
+		 	得到句子：
+		 	\[\sim P(x) \vee P(x) \]
+		 	
+         \item $\forall x \forall y \left(\mathrm{On} \left(x,y\right) \to \mathrm{Above} \left(x,y\right) \right)$ \\
+         	消去蕴含符号：
+         	\[ \forall x \forall y [\sim \mathrm{On} (x,y) \vee \mathrm{Above} (x,y)] \]
+         	消去全称量词：
+         	\[ \sim \mathrm{On} (x,y) \vee \mathrm{Above} (x,y) \]
+         	得到句子：
+         	\[ \sim \mathrm{On} (x,y) \vee \mathrm{Above} (x,y) \]
+         \item $\forall x \forall y \forall z \left(\mathrm{Above} \left(x,y\right) \wedge \mathrm{Above}\left(y,z\right) \to \mathrm{Above}\left(x,z\right) \right)$ \\
+         	消去蕴含符号：
+         	\[ \forall x \forall y \forall z \{ \sim [ \mathrm{Above} (x,y) \wedge \mathrm{Above} (y,z) \wedge \mathrm{Above} (x,z) \} \]
+         	消去全称量词：
+         	\[ \sim [ \mathrm{Above} (x,y) \wedge \mathrm{Above} (y,z) ] \vee \mathrm{Above} (x,z)\]
+         	得到句子：
+         	\[ \sim \mathrm{Above} (x,y) \vee \sim \mathrm{Above(x,z)} \vee \mathrm{Above} (y,z) \]
+         	
+         \item $\sim\left\{\left(\forall x\right)\left\{\left(\forall y)\left[p\left(y\right) \to p(f(x,y))\right] \wedge \left(\forall y \right) \left[Q(x,y) \to P(y) \right]\right\}\right\}\right\}$ \\
+         	消去蕴含符号：
+         	\begin{multline*}
+         	\sim \left\{ (\forall x) \left\{ \sim P(x) \vee \right. \right. \\
+         	\left. \left. \left\{ (\forall y) \left[ \sim p(y) \vee p \left( f(x,y) \right) \right] \wedge (\forall y) \left[ \sim Q(x,y) \vee P(y) \right] \right\} \right\} \right\} 
+         	\end{multline*}
+         	减少否定符号的辖域：
+         	\begin{multline*}
+         	(\exists x) \left\{ P(x) \wedge \right. \\
+         	\left. \left\{ (\exists x) \left[ p(y) \wedge \sim p \left( f(x,y) \right) \right] \vee (\exists y) \left[ Q(x,y) \wedge \sim P(y) \right] \right\} \right\} 
+         	\end{multline*}
+         	对变量标准化：
+         	\begin{multline*} 
+         	(\exists x) \left\{ P(x) \wedge \right. \\
+         	\left. \left\{ (\exists w) \left[ p(y) \wedge \sim p \left( f(w,y) \right) \right] \vee (\exists v) \left[ Q(x,v) \wedge \sim P(v) \right] \right\} \right\} 
+         	\end{multline*}
+         	消去存在量词：
+         	\[ P(A) \wedge \left\{ \left[ p(y) \wedge \sim p \left( f(B,y) \right) \right] \vee \left[ Q(A,C)\wedge \sim P(C)  \right] \right\} \]
+         	把母式化为合取范式：
+         	\begin{multline*}
+         	P(A) \wedge \left\{ \left[ p(y) \wedge \sim p \left( f(B,y) \right) \vee Q(A,C) \right] \wedge \right. \\
+         	\left. \left[ p(y) \wedge \sim p\left( f(B,y) \right) \vee \sim P(C) \right] \right\} 
+         	\end{multline*}
+         	消去连词符号（合取）：
+         	\begin{multline*}
+         	P(A) \wedge \left\{ \left[ p(y) , \sim p \left( f(B,y) \right) \right] \vee Q(A,C) \right\} \wedge \\
+         	\left\{ \left[ p(y) , \sim p\left( f(B,y) \right) \right] \vee \sim P(C) \right\}
+         	\end{multline*}
+         	得到子句：
+         	\begin{align*}
+         	& P(A) \\
+         	& \left[ p(y) , \sim p \left( f(B,y) \right) \right] \vee Q(A,C)  \\
+         	& \left[ p(y) , \sim p\left( f(B,y) \right) \right] \vee \sim P(C)
+         	\end{align*}
 	\end{enumerate}
 \end{solution}
 
@@ -145,4 +202,6 @@
 框架和本体有何关系与区别？
 \end{question}
 \begin{solution}
+框架是一种结构化表示方法。框架通常由指定事物各个方面的槽组成，每个槽拥有若干个侧面，而每个侧面又可拥有若干个值。大多数实用系统必须同时使用许多框架，并可把它们联成一个框架系统。框架表示已获广泛应用，然而并非所有问题都可以用框架表示。\\
+本体是概念化的一个显示规范说明或表示。本体可定义为被共享的概念化的一个形式规范说明。本体是一种比框架更有效的表示方法。
 \end{solution}

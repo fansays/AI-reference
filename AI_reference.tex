@@ -10,6 +10,12 @@
 \usepackage{float}
 \usepackage{forest}
 \usepackage{tikz}
+\usetikzlibrary{arrows}
+\usepackage[format=hang,singlelinecheck=0,font={small},labelfont=bf]{subfig}
+\usepackage{caption}
+
+\captionsetup[subfigure]{subrefformat=simple,labelformat=simple,listofformat=subsimple}
+\renewcommand\thesubfigure{(\alph{subfigure})}
 
 \usepackage{enumitem}
 \setlist{nolistsep}

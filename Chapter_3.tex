@@ -21,7 +21,7 @@
 		\item 按某一任意方式或按某个探试值，重排OPEN表；
 		\item GO LOOP。
 	\end{enumerate} \par
-重排OPEN表意味着什么， 在第(6)步中，将优先扩展哪个节点，不同的排序标准对应着不同的搜索策略。是否重新安排OPEN表，即是否按照某个试探值（或准则、启发信息等）重新对未扩展节点进行排序，将决定该图搜索过程是无信息搜索或启发式搜索。各种搜索策略的主要区别在于对OPEN表中节点的排列顺序不同。例如，广度优先搜索把先生成的子节点排在前面，而深度优先搜索则把后生成的子节点排在前面。\par
+重排OPEN表意味着什么：在第(6)步中，将优先扩展哪个节点，不同的排序标准对应着不同的搜索策略。是否重新安排OPEN表，即是否按照某个试探值（或准则、启发信息等）重新对未扩展节点进行排序，将决定该图搜索过程是无信息搜索或启发式搜索。各种搜索策略的主要区别在于对OPEN表中节点的排列顺序不同。例如，广度优先搜索把先生成的子节点排在前面，而深度优先搜索则把后生成的子节点排在前面。\par
 重排的原则当视具体需求而定，不同的原则对应着不同的搜索策略，如果想尽快地找到一个解，则应当将最有可能达到目标节点的那些节点排在OPEN表的前面部分，如果想找到代价最小的解，则应当按代价从小到大的顺序重排OPEN表。
 \end{solution}
 
@@ -131,17 +131,41 @@
 	\end{figure}
 \end{question}
 \begin{solution}
+在这个迷宫中，$S$是源节点，$F$是目标节点，$A$、$B$、$C$、$D$、$E$是$5$个具有二叉分支的节点，在每个节点处，都可能会出现两种路线，要么向左拐要么向右拐，我们在每个二叉节点处设立两个虚节点，以表示到该节点后的走向，向右拐为第一个虚节点，用下标$1$表示，向左拐为第二个虚节点，用下标$2$表示。例如，$A$节点处向右拐的虚节点用$A_1$表示，向左拐的虚节点用$A_2$表示。可以将该迷宫转换成一个有向图，如图\ref{Fig:maze-states-graph}。\par
+	\begin{figure} [h]
+		\centering
+		\input{figures/maze-states-graph.tex}
+		\caption{迷宫状态空间图} \label{Fig:maze-states-graph}
+	\end{figure}
+除F节点是目标节点外，其余没有后继节点的虚节点都说明走入了死胡同。\par
+利用深度优先搜索，其搜索树如图\subref*{Fig:maze-search-graph-dfs}所示，图中节点旁所标数字为节点扩展次序。所得到的解路径为：
+\[ S \to A \to A_1 \to B \to B_1 \to C \to C_1 \to F \]
+也就是说，从S出发，在A节点处不能左拐，而是直行，到B节点处右拐，到C节点也右拐，即可到达出口F。\par
+利用宽度优先搜索，其搜索树如图\subref*{Fig:maze-search-graph-bfs}所示，图中节点旁所标数字为节点扩展次序。所得到的解路径为：
+\[ S \to A \to A_1 \to B \to B_1 \to C \to C_1 \to F \]
+由搜索过程可以看出，宽度优先搜索的效率低于深度优先搜索。
+	\begin{figure} [h]
+		\centering
+		\captionsetup{justification=raggedright}
+		\subfloat[深度优先搜索]{\label{Fig:maze-search-graph-dfs}\input{figures/maze-search-dfs.tex}}\qquad
+		\subfloat[宽度优先搜索]{\label{Fig:maze-search-graph-bfs}\input{figures/maze-search-bfs.tex}}
+	    \caption{迷宫搜索图}
+	\end{figure}
 \end{solution}
 
 \begin{question}
 用有界深度优先搜索方法求解图\ref{Fig:8-code}所示八数码难题。
-	\begin{figure}[h]
+	\begin{figure}[H]
 		\centering
 		\includegraphics{figures/ques-3.7.pdf}
 		\caption{八数码难题} \label{Fig:8-code}
 	\end{figure}
 \end{question}
 \begin{solution}
+定义操作符集：$F=\{f1,f2,f3,f4\}$，其中：$f1$表示空格右移；$f2$表示空格上移；$f3$表示空格左移；$f4$表示空格下移。\par
+搜索时，节点的扩展顺序规定为按右、左、上、下方向移动空格。并设置深度界限为$8$。\par
+由上述有界深度优先搜索树中可见，当$d=8$时，八数码难题的一个解为：
+\[f4, f4, f3, f2, f2, f3, f4, f3\]
 \end{solution}
 
 \begin{question}

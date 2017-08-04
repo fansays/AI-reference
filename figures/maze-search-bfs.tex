@@ -1,0 +1,41 @@
+\begin{tikzpicture}[->,>=stealth',shorten >=1pt,auto,node distance=1.3cm,
+                    thick,main node/.style={circle,draw}]
+
+  \node[main node] (S) {$S$};
+  \node[main node] (A) [below of=S] {$A$};
+  \node[main node] (A1) [below left of=A] {$A_1$};
+  \node[main node] (A2) [below right of=A] {$A_2$};
+  \node[main node] (B) [below of=A1] {$B$};
+  \node[main node] (B1) [below left of=B] {$B_1$};
+  \node[main node] (B2) [below right of=B] {$B_2$};
+  \node[main node] (C) [below of=B1] {$C$};
+  \node[main node] (C1) [below left of=C] {$C_1$};
+  \node[main node] (C2) [below right of=C] {$C_2$};
+  \node[main node] (F) [below of=C1] {$F$};
+  \node[main node] (D) [below of=C2] {$D$};
+  \node[main node] (B2) [below right of=B] {$B_2$};
+  \node[main node] (H) [below right of=B2] {$H$};
+  \node[main node] (H1) [below left of=H] {$H_1$};
+  \node[main node] (H2) [below right of=H] {$H_2$};
+  \node[main node] (G) [below of=H1] {$G$};
+  \node[main node] (G') [below of=H2] {$G$};
+  
+
+  \path[every node/.style={}]
+  	(S) edge (A)
+  	(A) edge (A1)
+  		edge (A2)
+  	(A1) edge (B)
+  	(B) edge (B1)
+  		edge (B2)
+  	(B2) edge (H)
+  	(H) edge (H1)
+  		edge (H2)
+  	(H1) edge (G)
+  	(H2) edge (G')
+  	(B1) edge (C)
+  	(C) edge (C1)
+  		edge (C2)
+  	(C1) edge (F)
+  	(C2) edge (D);
+\end{tikzpicture}
