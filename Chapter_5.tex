@@ -115,7 +115,7 @@ CI智能是最低的，它没有知识，就是数据计算。从复杂性来看
 	最终的输出为
 	\[ O_i = g \left( \sum\limits_j W_{ji} H_j \right) = c \left( \sum\limits_j W_{ji} \left( c \sum\limits_k W{kj} I_k + d \right) \right) + d \, ,\]
 	对于该输出，可以看出实际上可以化为输入的线性关系：
-	\[ O_i = c^2 \sum\limits_k I_k \sum\limits_j W_{kj} W_{ji} + d \left( 1 + c \sum\limits_j W_{ji} \right)\]
+	\[ O_i = c^2 \sum\limits_k I_k \sum\limits_j W_{kj} W_{ji} + d \left( 1 + c \sum\limits_j W_{ji} \right) 、， . \]
 	这样，就可以只使用一层感知机计算和两层网络相同的函数，其权重和激励函数分别为：
 	\[ W_{ki} = \sum\limits_j W_{kj} W_{ji} \, ,\]
 	\[ g(x) = c^2 + d \left( 1+c \sum\limits_j W_{ji} \right) \, .\]

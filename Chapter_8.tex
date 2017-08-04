@@ -1,0 +1,116 @@
+\chapter{自动规划}
+
+\begin{question}
+结合实例叙述自动规划的概念和作用。
+\end{question}
+\begin{solution}
+\end{solution}
+
+\begin{question}
+你认为自动规划应如何分类比较科学和可行？
+\end{question}
+\begin{solution}
+\end{solution}
+
+\begin{question}
+有哪几种重要的机器人高层规划系统？它们各有什么特点？你认为哪种规划方法有较大的发展前景？
+\end{question}
+\begin{solution}
+基于谓词逻辑的规划是用谓词逻辑来描述世界模型及规划过程的一种规划方法。
+	\begin{enumerate}
+	\item 规划演绎法。用F规则求解规划序列。 
+	\item 逻辑演算和通用搜索法。STRIPS和ABSTRIPS系统。
+	\item 具有学习能力的规划系统。如PULP-I系统。
+	\item 分层规划方法。如NOAH规划系统，它特别适用于非线性规划。
+	\item 基于专家系统的规划。如ROPES规划系统，它具有更快的规划速度，更强的规划能力和更大的适应性。
+	\end{enumerate}  
+\end{solution}
+
+\begin{question}
+令right($x$),left($x$),up($x$)和down($x$)分别表示八数码难题中单元$x$左边、右边、上面和下面的单元（如果这样的单元存在的话）。试写出STIPS规划来模拟向上移动B(空格)、向下移动B、向左移动B和向右移动B等动作。
+\end{question}
+\begin{solution}
+\end{solution}
+
+\begin{question}
+考虑设计一个清扫厨房规划问题。
+	\begin{enumerate}
+	\item 写出一套可能要用的STRIPS型操作符。当你描述这些操作符时，要考虑到下列情况： 
+		\begin{itemize}
+		\item 清扫火炉或电冰箱会弄脏地板。
+		\item 要清扫烘箱，必须应用烘箱清洗器，然后搬走此清洗器。
+		\item 在清扫地板之前，必须先行打扫。
+		\item 在打扫地板之前，必须先把垃圾筒拿出去。
+		\item 清扫电冰箱造成垃圾污物，并把工作台弄脏。
+		\item 清洗工作台或地板使洗涤盘弄脏。 
+		\end{itemize}
+	\item 写出一个被清扫厨房的可能初始状态描述，并写出一个可描述的（但很可能难以得到的）目标描述。 
+	\item 说明如何把STRIPS规划技术用来求解这个问题。（提示：你可能想修正添加条件的定义，以便当某个条件添加至数据库时，如果出现它的否定的话，就能自动删去此否定）。 
+	\end{enumerate}
+\end{question}
+\begin{solution}
+\end{solution}
+
+\begin{question}
+曲颈瓶$F1$和$F2$的容积分别为$C1$和$C2$。公式$CONT(X,Y)$表示瓶子$X$含有$Y$容量单位的液体。试写出STRIPS规划来模拟下列动作：
+\begin{enumerate}
+	\item 把$F1$内的全部液体倒进$F2$内。
+	\item 用$F1$的部分液体把$F2$装满。   
+\end{enumerate}
+\end{question}
+\begin{solution}
+\end{solution}
+
+\begin{question}
+机器人Rover正在房外，想进入房内，但不能开门让自已进去，而只能喊叫，让叫声促使开门。另一机器人Max在房间内，他能够开门并喜欢平静。Max通常可以把门打开来使Rover停止叫喊。假设Max和Rover各有一个STRIPS规划生成系统和规划执行系统。试说明Max和Rover的STRIPS规则和动作，并描述导致平衡状态的规划序列和执行步骤。  
+\end{question}
+\begin{solution}
+\end{solution}
+
+\begin{question}
+用本章讨论过的任何规划生成系统，解决图×所示机械手堆积木问题。
+\end{question}
+\begin{solution}
+\end{solution}
+
+\begin{question}
+考虑图×所示的寻找路径问题。 
+\end{question}
+\begin{solution}
+\end{solution}
+
+\begin{question}
+指出你的过程结构空间求得的图×问题的路径，并叙述如何把你在上题中所得结论推广至包括旋转情况。
+\end{question}
+\begin{solution}
+\end{solution}
+
+\begin{question}
+图×表示机器人工作的世界模型。要求机器人Robot把3个箱子BOX1、BOX2和BOX3移到如图×所示目标位置，试用专家系统方法建立本规划，并给出规划序列。
+\end{question}
+\begin{solution}
+\end{solution}
+
+\begin{question}
+图×表示机器人工作的世界模型。要求机器人把箱子从房间R2初始位置移至房间R1目标位置。试建立本机器人规划专家系统，并给出规划结果。
+\end{question}
+\begin{solution}
+\end{solution}
+
+\begin{question}
+路径规划的作用是什么？你是否进行过路径规划研究？
+\end{question}
+\begin{solution}
+\end{solution}
+
+\begin{question}
+除了本章介绍的路径规划方法外，你知道哪些其他的路径规划方法，包括传统人工智能规划方法？
+\end{question}
+\begin{solution}
+\end{solution}
+
+\begin{question}
+轨迹规划是什么概念？为什么说它不属于人工智能范畴？
+\end{question}
+\begin{solution}
+\end{solution}

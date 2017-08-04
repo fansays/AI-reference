@@ -10,7 +10,9 @@
 \usepackage{float}
 \usepackage{forest}
 \usepackage{tikz}
+\usetikzlibrary{matrix}
 \usetikzlibrary{arrows}
+\usetikzlibrary{positioning}
 \usepackage[format=hang,singlelinecheck=0,font={small},labelfont=bf]{subfig}
 \usepackage{caption}
 
@@ -28,7 +30,7 @@
 \DeclareInstance{exsheets-heading}{mylist}{default}{
   runin = true ,
   attach = {
-    main[l,vc]number[l,vc](-3em,0pt) ; % 3em = indent of question body
+    main[l,vc]number[l,vc](-3.4em,0pt) ; % 3.4em = indent of question body
     main[r,vc]points[l,vc](\linewidth+\marginparsep,0pt)
   }
 }
@@ -36,7 +38,7 @@
   headings = mylist , % use the new headings instance
   headings-format = \normalfont\bfseries ,
   counter-within = section ,
-  solution/print = true ,
+  solution/print = true , % print solution or not
   solution/pre-body-hook = {\textsf{答}　}
 }
 \let\oldquestion\question
@@ -75,5 +77,8 @@
 \input{Chapter_5.tex}
 \input{Chapter_6.tex}
 \input{Chapter_7.tex}
+%\input{Chapter_8.tex}
+%\input{Chapter_9.tex}
+%\input{Chapter_10.tex}
 
 \end{document}
