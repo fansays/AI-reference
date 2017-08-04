@@ -1,0 +1,38 @@
+		\begin{forest}
+		  for tree={
+		    draw,
+		    circle,
+		  },
+		  [A
+		  	[B, edge label={node[midway,left,font=\scriptsize]{100}}
+		  		[C, edge label={node[midway,left,font=\scriptsize]{150}}
+		  			[D, edge label={node[midway,left,font=\scriptsize]{100}}
+		  				[E, edge label={node[midway,right,font=\scriptsize]{50}}
+		  					[A, edge label={node[midway,right,font=\scriptsize]{75}}
+		  					]]]
+		  			[E, edge label={node[midway,right,font=\scriptsize]{125}}
+		  				[D, edge label={node[midway,right,font=\scriptsize]{50}}
+		  					[A, edge label={node[midway,right,font=\scriptsize]{100}}
+		  					]]]
+		  		][D, edge label={node[midway,right,font=\scriptsize]{75	}}
+		  			[C, edge label={node[midway,left,font=\scriptsize]{100}}
+		  				[E, edge label={node[midway,right,font=\scriptsize]{125}}
+		  					[A, edge label={node[midway,right,font=\scriptsize]{75}}
+		  					]]]
+		  			[E, edge label={node[midway,right,font=\scriptsize]{50}}
+		  				[C, edge label={node[midway,right,font=\scriptsize]{125}}
+		  					[A, edge label={node[midway,right,font=\scriptsize]{125}}
+		  					]]]
+		  		][E, edge label={node[midway,right,font=\scriptsize]{125}}
+					[C, edge label={node[midway,left,font=\scriptsize]{125}}
+						[D, edge label={node[midway,right,font=\scriptsize]{100}}
+							[A, edge label={node[midway,right,font=\scriptsize]{100}}
+							]]]
+					[D, edge label={node[midway,right,font=\scriptsize]{50}}
+						[C, edge label={node[midway,right,font=\scriptsize]{100}}
+							[A, edge label={node[midway,right,font=\scriptsize]{125}}
+							]]]  		
+		  		]
+		  	][C][D][E]
+		  ]
+		\end{forest}

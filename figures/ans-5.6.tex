@@ -12,17 +12,17 @@
     % Draw the input layer nodes
     %\foreach \name / \y in {1,...,2}
     % This is the same as writing \foreach \name / \y in {1/1,2/2,3/3,4/4}
-        \node[input neuron, pin=left:] (I-1) at (0,-1) {a};
-        \node[input neuron, pin=left:] (I-2) at (0,-2) {b};
+        \node[input neuron, pin=left:] (I-1) at (0,-1) {$a$};
+        \node[input neuron, pin=left:] (I-2) at (0,-2) {$b$};
 
     % Draw the hidden layer nodes
     %\foreach \name / \y in {1,...,2}
-        \node[hidden neuron] (H-1) at (\layersep,-1 cm) {c};
-        \node[hidden neuron] (H-2) at (\layersep,-2 cm) {d};
+        \node[hidden neuron] (H-1) at (\layersep,-1 cm) {$c$};
+        \node[hidden neuron] (H-2) at (\layersep,-2 cm) {$d$};
 
     % Draw the output layer node
     \path[yshift=0.5cm]
-    		node[output neuron,pin={[pin edge={->}]right:}, right of=H-1] (O) {e};
+    		node[output neuron,pin={[pin edge={->}]right:}, right of=H-1] (O) {$e$};
 
     % Connect every node in the input layer with every node in the
     % hidden layer.    

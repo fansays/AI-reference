@@ -12,7 +12,7 @@
 试述计算智能（CI）、人工智能（AI）和生物智能（BI）的关系。
 \end{question}
 \begin{solution}
-CI$\subset$AI$\subset$BI；并且CI与AI的差异要比AI与BI的差异小得多。
+CI$\subset$AI$\subset$BI；CI与AI的差异要比AI与BI的差异小得多。
 \end{solution}
 
 \begin{question}
@@ -42,11 +42,17 @@ CI$\subset$AI$\subset$BI；并且CI与AI的差异要比AI与BI的差异小得多
 构作一个神经网络，用于计算含有两个输入的XOR函数。指定所用神经网络单元的种类。
 \end{question}
 \begin{solution}
+已知用单层感知机是无法解决XOR问题的，需要增加隐单元。隐单元的数量可以有多种选择。这里给出含有两个隐单元（只有一层隐单元）的前馈神经网络。\par 
 	\begin{figure}[h]
 		\centering
 		\input{figures/ans-5.6.tex}
 		\caption{XOR问题的神经网络} \label{Fig:NN-XOR}
 	\end{figure}
+支持XOR问题的神经网络可以如图\ref{Fig:NN-XOR}所示。在这个神经网络中，共有5个处理单元，其中，$a$和$b$是输入单元，$c$和$d$是隐单元，它们位于网络的同一层上，$e$是输出单元。各单元的作用函数$O_i = f(a_i)$为阈值型。
+\[O_i = \begin{cases}
+	1, \quad a_i \geq 1 \\
+	0, \quad a_i < 1
+\end{cases} \]
 \end{solution}
 
 \begin{question}
@@ -83,6 +89,12 @@ CI$\subset$AI$\subset$BI；并且CI与AI的差异要比AI与BI的差异小得多
 模糊集合有哪些运算？满足哪些规律？
 \end{question}
 \begin{solution}
+模糊集合的交、并、补。设$A$、$B$是论域$U$上的两个模糊集，分别称$A \cup B$、$A \cap B$为$A$与$B$的并集、交集，称$\overline{A}$为$A$的补集，它们的隶属函数分别为：
+	\begin{align*}
+		\mu_{A \cup B}(u) &= \max \left\{ \mu_A(u), \mu_B(u) \right\} \\
+		\mu_{A \cap B}(u) &= \min \left\{ \mu_A(u), \mu_B(u) \right\} \\
+		\mu_{\overline{A}} &= 1 - \mu_A(u)
+	\end{align*}
 \end{solution}
 
 \begin{question}
@@ -135,22 +147,51 @@ CI$\subset$AI$\subset$BI；并且CI与AI的差异要比AI与BI的差异小得多
 什么是人工生命？请按你的理解用自己的语言给人工生命下个定义。
 \end{question}
 \begin{solution}
+具有自然生命现象和（或）特征的人造系统，都可称为人工生命。
 \end{solution}
 
 \begin{question}
 人工生命要模仿自然生命的特征和现象。自然生命有哪些共同特征？
 \end{question}
 \begin{solution}
+自然生命的共同特征和现象包括但不限于：
+	\begin{enumerate}
+		\item 自繁殖、自进化、自寻优；
+		\item 自成长、自学习、自组织；
+		\item 自稳定、自适应、自协调；
+		\item 物质构造；
+		\item 能量转换；
+		\item 信息处理。
+	\end{enumerate}
 \end{solution}
 
 \begin{question}
 为什么要研究人工生命？
 \end{question}
 \begin{solution}
+研究和开发人工生命，有利于
+	\begin{enumerate}
+		\item 开发基于人工生命的工程技术新方法、新系统、新产品；
+		\item 为自然生命的研究提供新模型、新工具、新环境；
+		\item 延伸人类寿命、减缓衰老、预防疾病；
+		\item 扩展自然生命，实现人工进化和优生优育；
+		\item 促进生命科学、信息科学、系统科学的交叉与发展。
+	\end{enumerate}
+	因此，人工生命的研究开发及应用具有重大的科学意义、广泛的应用前景、深远的社会影响、以及显著的经济效益。
 \end{solution}
 
 \begin{question}
 人工生命包括哪些研究内容？其研究方法如何？
 \end{question}
 \begin{solution}
+人工生命的研究内容大致可分为两类：
+	\begin{enumerate}
+		\item 构成生物体的内部系统，包括脑、神经系统、内分泌系统、免疫系统、遗传系统、酶系统、代谢系统等。
+		\item 生物体及其群体的外部系统，包括环境适应系统和遗传进化系统等。
+	\end{enumerate} \par
+	人工生命的研究方法主要可分为两类：
+	\begin{enumerate}
+		\item 信息模拟法。根据内部和外部系统所表现的生命行为来创造信息模型。
+		\item 工作原理法。生命行为所显示的自律分散和非线性行为，其工作原理是混沌和分形，以此为基础研究人工生命的机理。
+	\end{enumerate}
 \end{solution}

@@ -16,83 +16,28 @@
 \begin{solution}
 设$(m,n)$表示右岸上有$m$个野人，$n$个传教士；$r(m,n)$表示把$m$个野人和$n$个传教士从右岸运至左岸，$l(m,n)$表示把$m$个野人和$n$个传教士从左岸运至右岸。则安全把所有人渡过河的过程表示为
 \begin{align*}
-(3,3) & \xrightarrow{r(2,0)} (1,3) \xrightarrow{l(1,0)} (2,3) 
-		\xrightarrow{r(2,0)} (0,3) \xrightarrow{l(1,0)} (1,3) \\
-	& \xrightarrow{r(0,2)} (1,1) \xrightarrow{l(1,1)} (2,2) 
-		\xrightarrow{r(0,2)} (2,0) \xrightarrow{l(1,0)} (0,0) \\
-	& \xrightarrow{r(2,0)} (0,0)
+& (3,3) \xrightarrow{r(2,0)} (1,3) \xrightarrow{l(1,0)} (2,3) 
+	\xrightarrow{r(2,0)} (0,3) \xrightarrow{l(1,0)} (1,3) \\
+	\xrightarrow{r(0,2)} & (1,1) \xrightarrow{l(1,1)} (2,2) 
+	\xrightarrow{r(0,2)} (2,0) \xrightarrow{l(1,0)} (0,0) \xrightarrow{r(2,0)} (0,0)
 \end{align*}
 \end{solution}
 
 \begin{question}
 利用图\ref{Fig:TSP-problem}，用状态空间法规划一个最短的旅行路程：此旅程从城市A开始，访问其他城市不多于一次，并返回A。选择一个状态表示，表示出所求得的状态空间的节点及弧线，标出适当的代价，并指明图中从起始节点到目标节点的最佳路径。
-	\begin{figure}[h]
-		\centering
-		\includegraphics{figures/ques-2.3.pdf}
-		\caption{旅行商问题} \label{Fig:TSP-problem}
-	\end{figure}
 \end{question}
 \begin{solution}
 用状态空间法表示所求路径如图\ref{Fig:TSP-answer}所示。
 	\begin{figure} [h]
 		\centering
-		\begin{forest}
-		  for tree={
-		    draw,
-		    circle,
-		  },
-		  [A
-		  	[B, edge label={node[midway,left,font=\scriptsize]{100}}
-		  		[C, edge label={node[midway,left,font=\scriptsize]{150}}
-		  			[D, edge label={node[midway,left,font=\scriptsize]{100}}
-		  				[E, edge label={node[midway,right,font=\scriptsize]{50}}
-		  					[A, edge label={node[midway,right,font=\scriptsize]{75}}
-		  					]]]
-		  			[E, edge label={node[midway,right,font=\scriptsize]{125}}
-		  				[D, edge label={node[midway,right,font=\scriptsize]{50}}
-		  					[A, edge label={node[midway,right,font=\scriptsize]{100}}
-		  					]]]
-		  		][D, edge label={node[midway,right,font=\scriptsize]{75	}}
-		  			[C, edge label={node[midway,left,font=\scriptsize]{100}}
-		  				[E, edge label={node[midway,right,font=\scriptsize]{125}}
-		  					[A, edge label={node[midway,right,font=\scriptsize]{75}}
-		  					]]]
-		  			[E, edge label={node[midway,right,font=\scriptsize]{50}}
-		  				[C, edge label={node[midway,right,font=\scriptsize]{125}}
-		  					[A, edge label={node[midway,right,font=\scriptsize]{125}}
-		  					]]]
-		  		][E, edge label={node[midway,right,font=\scriptsize]{125}}
-					[C, edge label={node[midway,left,font=\scriptsize]{125}}
-						[D, edge label={node[midway,right,font=\scriptsize]{100}}
-							[A, edge label={node[midway,right,font=\scriptsize]{100}}
-							]]]
-					[D, edge label={node[midway,right,font=\scriptsize]{50}}
-						[C, edge label={node[midway,right,font=\scriptsize]{100}}
-							[A, edge label={node[midway,right,font=\scriptsize]{125}}
-							]]]  		
-		  		]
-		  	][C][D][E]
-		  ]
-		\end{forest}
-		\caption{旅行商问题状态空间图} \label{Fig:TSP-answer}
 	\end{figure}
 \end{solution}
 
 \begin{question}
 试说明怎样用一棵与或解树来表达图\ref{Fig:elec}所示的电网络阻抗的计算。单独的$R$、$L$或$C$可分别用$R$、$j\omega L$或$1/j\omega C$来计算，这个事实用作本原问题。后继算符应以复合并联和串联阻抗的规则为基础。
-	\begin{figure}[H]
-		\centering
-		\includegraphics{figures/ques-2.4.pdf}
-		\caption{电网络阻抗计算} \label{Fig:elec}
-	\end{figure}
 \end{question}
 \begin{solution}
 约定，用原来的与后继算法用来表达并联关系，用原来的或后继算法用来表达串联关系。则所求与或解树如图\ref{Fig:and-or-tree-for-elec}所示。
-	\begin{figure}[h]
-		\centering
-		\includegraphics{figures/ans-2.4.pdf}
-		\caption{电网络阻抗计算与或解树} \label{Fig:and-or-tree-for-elec}
-	\end{figure}
 \end{solution}
 
 \begin{question}
@@ -101,12 +46,28 @@
 \begin{solution}
 用四元数列$(n_A, n_B, n_C, n_D)$来表示A、B、C、D盘分别落在$n_A$、$n_B$、$n_C$、$n_D$号柱子上。则问题科的初始状态为$(1,1,1,1)$，目标状态为$(3,3,3,3)$。\par
 求解问题的与或图如图\ref{Fig:and-or-tree-for-hannoi}，按从上往下的顺序，依次处理每一个叶结点，搬动圆盘，问题得解。 
-	\begin{figure}[h]
+\end{solution}
+
+	\begin{figure}[H]
 		\centering
-		\includegraphics{figures/ans-2.5.pdf}
+		\includegraphics[scale=.8]{figures/ques-2.3.pdf}
+		\caption{旅行商问题} \label{Fig:TSP-problem}
+		\vspace{1cm}
+		\input{figures/ans-2.3.tex}
+		\caption{旅行商问题状态空间图} \label{Fig:TSP-answer}
+		\vspace{1cm}
+		\includegraphics{figures/ques-2.4.pdf}
+		\caption{电网络阻抗计算} \label{Fig:elec}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=.8]{figures/ans-2.4.pdf}
+		\caption{电网络阻抗计算与或解树} \label{Fig:and-or-tree-for-elec}
+		\vspace{1cm}
+		\includegraphics[scale=.8]{figures/ans-2.5.pdf}
 		\caption{樊塔问题与或树} \label{Fig:and-or-tree-for-hannoi}
 	\end{figure}
-\end{solution}
 
 \begin{question}
 把下列句子变换成子句形式：
@@ -163,7 +124,7 @@
 如图\ref{Fig:semantic-net}。
 	\begin{figure}[h]
 		\centering
-		\includegraphics{figures/ans-2.8.pdf}
+		\includegraphics[scale=.9]{figures/ans-2.8.pdf}
 		\caption{ 所求语义网络 } \label{Fig:semantic-net}
 	\end{figure}
 \end{solution}
@@ -175,7 +136,7 @@
 以房间为例，如图\ref{Fig:semantic-my-room}。
 	\begin{figure}[h]
 		\centering
-		\includegraphics{figures/ans-2.9.pdf}
+		\includegraphics[scale=.9]{figures/ans-2.9.pdf}
 		\caption{ 我的房间语义网络 } \label{Fig:semantic-my-room}
 	\end{figure}
 \end{solution}

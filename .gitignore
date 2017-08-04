@@ -1,0 +1,11 @@
+
+# documents
+
+*.docx
+*.pptx
+*.rar
+
+# temporary files
+
+*.aux
+*.log
