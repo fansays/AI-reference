@@ -2,6 +2,7 @@
 # documents
 
 *.docx
+*.docx#
 *.pptx
 *.rar
 
