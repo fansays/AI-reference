@@ -1,0 +1,23 @@
+\begin{tikzpicture}[->,>=stealth',shorten >=1pt, 
+				   every node/.append style={node distance=0.8cm and 1.5cm},
+                    main node/.style={rectangle,draw}]
+
+\node[main node] (G) {G};
+\node[main node] (GS) [above=of G] {GS};
+\node[main node] (B1) [right=of G] {Branch manager};
+\node[main node] (B) [above=of B1] {Manager};
+\node[main node] (DEC) [below=of B1] {DEC};
+\node[main node] (P1) [right=2cm of B1] {Profit sharing plan-1};
+\node[main node] (P) [above=of P1] {Plan};
+\node[rectangle, dashed, draw, minimum width=3.5cm, minimum height=1.8cm, xshift=-0.4cm] (null) [right=of G] {};
+
+
+\draw (G) edge node[left]{ISA} (GS)
+          edge node[below]{$\forall$} (B1)
+          edge node[above, sloped, anchor=south]{FORM} (null.north west);
+\draw (B1) edge node[right]{ISA} (B)
+		edge node[right]{belongs} (DEC)
+          edge node[above]{Participate} (P1);
+\draw (P1) edge node[right]{ISA} (P);
+
+\end{tikzpicture}

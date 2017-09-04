@@ -1,0 +1,19 @@
+\begin{tikzpicture}[->,>=stealth',shorten >=1pt, 
+				   every node/.append style={node distance=0.8cm and 1.5cm},
+                    main node/.style={rectangle,draw}]
+
+\node[main node] (G) {G};
+\node[main node] (GS) [above=of G] {GS};
+\node[main node] (Man1) [right=of G] {Man-1};
+\node[main node] (Man) [above=of Man1] {Man};
+\node[main node] (mortal) [right=of Man1] {mortal};
+\node[rectangle, dashed, draw, minimum width=2cm, minimum height=1.7cm, xshift=-0.4cm] (null) [right=of G] {};
+
+
+\draw (G) edge node[left]{ISA} (GS)
+          edge node[below]{$\forall$} (Man1)
+          edge node[above, sloped, anchor=south]{FORM} (null.north west);
+\draw (Man1) edge node[right]{ISA} (Man)
+          edge node[above]{IS} (mortal);
+
+\end{tikzpicture}

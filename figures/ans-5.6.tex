@@ -22,21 +22,22 @@
 
     % Draw the output layer node
     \path[yshift=0.5cm]
-    		node[output neuron,pin={[pin edge={->}]right:}, right of=H-1] (O) {$e$};
+    		node[output neuron,pin={[pin edge={->}]right:}, right of=H-1, yshift=-0.5cm] (O) {$e$};
 
     % Connect every node in the input layer with every node in the
     % hidden layer.    
-    \path (I-1) edge node[above]{$1$} (H-1);
-    \path (I-1) edge node[above=10pt,right=2pt]{$0.5$} (H-2);
-    \path (I-2) edge node[below=10pt,right=2pt]{$1$} (H-1);
-    \path (I-2) edge node[below]{$0.5$} (H-2);
+    \path (I-1) edge node[sloped, above]{$1$} (H-1);
+    \path (I-1) edge node[sloped, below right= 0pt and 1pt]{$0.5$} (H-2);
+    \path (I-2) edge node[sloped, above right= 0pt and 1pt]{$1$} (H-1);
+    \path (I-2) edge node[sloped, below]{$0.5$} (H-2);
 
     % Connect every node in the hidden layer with the output layer
-    \path (H-1) edge node[above]{$1$} (O);
-    \path (H-2) edge node[below]{$-1$} (O);
+    \path (H-1) edge node[sloped, above]{$1$} (O);
+    \path (H-2) edge node[sloped, below]{$-1$} (O);
 
     % Annotate the layers
-    \node[annot,above of=H-1, node distance=1cm] (hl) {Hidden layer};
-    \node[annot,left of=hl] {Input layer};
-    \node[annot,right of=hl] {Output layer};
+    \node[annot,above of=H-1, node distance=1cm] (hl) {隐含层};
+    \node[annot,left of=hl] {输入层};
+    \node[annot,right of=hl] {输出层};
+
 \end{tikzpicture}

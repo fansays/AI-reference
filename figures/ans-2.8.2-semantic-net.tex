@@ -1,0 +1,23 @@
+\begin{tikzpicture}[->,>=stealth',shorten >=1pt, 
+				   every node/.append style={node distance=0.8cm and 1.5cm},
+                    main node/.style={rectangle,draw}]
+
+\node[main node] (G) {G};
+\node[main node] (GS) [above=of G] {GS};
+\node[main node] (C1) [right=of G] {Cloud-1};
+\node[main node] (C) [above=of C1] {Cloud};
+\node[main node] (L1) [right=of C1] {Lining-1};
+\node[main node] (L) [above=of L1] {Lining};
+\node[main node] (S) [below=of L1] {Silver};
+\node[rectangle, dashed, draw, minimum width=2cm, minimum height=1.7cm, xshift=-0.3cm] (null) [right=of G] {};
+
+
+\draw (G) edge node[left]{ISA} (GS)
+          edge node[below]{$\forall$} (C1)
+          edge node[above, sloped, anchor=south]{FORM} (null.north west);
+\draw (C1) edge node[right]{ISA} (C)
+          edge node[above]{Has} (L1);
+\draw (L1) edge node[right]{ISA} (L)
+		edge node[right]{Color} (S);
+
+\end{tikzpicture}
